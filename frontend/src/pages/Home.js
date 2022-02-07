@@ -54,7 +54,7 @@ const Home = ({ user }) => {
                   className='image-layer'
                   style={{
                     backgroundImage:
-                      "url(assets/images/backgrounds/main-slider-v1-1.jpg)",
+                      "url(https://escrowindia.globalgroominghealthcare.com/assets/homepage.png)",
                   }}
                 ></div>
                 <div className='image-layer-overlay'></div>
@@ -66,36 +66,14 @@ const Home = ({ user }) => {
                           <span className='main-slider-tagline'>
                             We're producing natural goods
                           </span>
-                          <h2 className='main-slider__title'>
-                            Welcome to <br />
-                            Agriculture
-                            <span>
-                              <span className='leaf'>
-                                <img
-                                  src='assets/images/resources/leaf.png'
-                                  alt=''
-                                />
-                              </span>
-                              Farm
-                            </span>
-                          </h2>
+                         
                           <p className='main-slider__text'>
-                            There are many of passages of lorem Ipsum, but the
-                            majori have
-                            <br />
-                            suffered alteration in some form.
+                            Building a trusted trade platform for <br />
+B2B Agri Transaction
                           </p>
                         </div>
                         <div className='main-slider__button-box'>
-                          <div className='arrow-icon'>
-                            <img
-                              src='assets/images/icon/main-slider__button-arrow.png'
-                              alt=''
-                            />
-                          </div>
-                          <a href='#' className='thm-btn'>
-                            Discover more
-                          </a>
+                        
                         </div>
                       </div>
                     </div>
