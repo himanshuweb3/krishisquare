@@ -62,19 +62,14 @@ const Home = ({ user }) => {
                   <div className='row'>
                     <div className='col-lg-12'>
                       <div className='main-slider-inner'>
-                        <div className='main-slider__content'>
-                          <span className='main-slider-tagline'>
-                            We're producing natural goods
-                          </span>
+                        <div className='main-slider__content'>                        
                          
                           <p className='main-slider__text'>
                             Building a trusted trade platform for <br />
 B2B Agri Transaction
                           </p>
                         </div>
-                        <div className='main-slider__button-box'>
-                        
-                        </div>
+                       
                       </div>
                     </div>
                   </div>
@@ -196,42 +191,16 @@ B2B Agri Transaction
             </div>
 
             {/* If we need navigation buttons */}
-            <div
-              className='swiper-pagination'
-              id='main-slider-pagination'
-            ></div>
+            
 
-            <div className='main-slider__nav'>
-              <div
-                className='swiper-button-prev'
-                id='main-slider__swiper-button-next'
-              >
-                <span className='icon-right-arrow-2'></span>
-              </div>
-              <div
-                className='swiper-button-next'
-                id='main-slider__swiper-button-prev'
-              >
-                <span className='icon-right-arrow-2'></span>
-              </div>
-            </div>
+          
           </div>
         </section>
         {/*Main Slider End*/}
 
         {/*About One Start*/}
         <section className='about-one'>
-          <div
-            className='about-one__bg wow slideInRight'
-            data-wow-delay='100ms'
-            data-wow-duration='2500ms'
-          >
-            <img
-              className='float-bob-y'
-              src='assets/images/backgrounds/about-v1-bg.png'
-              alt=''
-            />
-          </div>
+          
           <div className='container'>
             <div className='row'>
               {/*Start About One Left*/}
@@ -239,7 +208,7 @@ B2B Agri Transaction
                 <div className='about-one__left'>
                   <div className='about-one__left-img'>
                     <div className='about-one__left-img-inner'>
-                      <img src='assets/images/about/about-v1-img1.jpg' alt='' />
+                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/history/02.jpg' alt='' />
                     </div>
                   </div>
                 </div>
@@ -249,20 +218,12 @@ B2B Agri Transaction
               {/*Start About One Content*/}
               <div className='col-xl-6'>
                 <div className='about-one__content'>
-                  <div className='sec-title'>
-                    <div className='icon'>
-                      <img
-                        src='assets/images/resources/sec-title-icon1.png'
-                        alt=''
-                      />
-                    </div>
-                    <span className='sec-title__tagline'>Our introduction</span>
+                  <div className='sec-title'>                  
+                    
                     <h2 className='sec-title__title'>About Krishi Square</h2>
                   </div>
 
-                  <h2 className='about-one__content-title'>
-                    We’re Leader in Agriculture Market
-                  </h2>
+                 
                   <p className='about-one__content-text'>
                     Krishi Square has been conceptualised as a B2B agri tech
                     platform to enable discovery and trust in trade for small
@@ -289,10 +250,7 @@ B2B Agri Transaction
           ></div>
           <div className='container'>
             <div className='sec-title text-center'>
-              <div className='icon'>
-                <img src='assets/images/resources/sec-title-icon1.png' alt='' />
-              </div>
-              <span className='sec-title__tagline'>What we’re doing</span>
+             
               <h2 className='sec-title__title'>Why Krishi Square</h2>
             </div>
             <div className='row justify-content-center'>
@@ -303,18 +261,9 @@ B2B Agri Transaction
                 data-wow-duration='1000ms'
               >
                 <div className='services-one__single'>
-                  <div className='services-one__single-img'>
-                    <div className='services-one__single-img-inner'>
-                      <img
-                        src='assets/images/services/services-v1-img1.jpg'
-                        alt=''
-                      />
-                    </div>
-                  </div>
+                 
                   <div className='services-one__single-content text-center'>
-                    <div className='services-one__single-img-icon'>
-                      <span className='icon-agriculture'></span>
-                    </div>
+                   
                     <h3>
                       <a href='services-details.html'>
                         Multi commodity
@@ -323,9 +272,7 @@ B2B Agri Transaction
                       </a>
                     </h3>
                     <p>A one stop solution for all agri products</p>
-                    <a href='services-details.html' className='read-more-btn'>
-                      <span className='icon-right-arrow-2'></span>
-                    </a>
+                   
                   </div>
                 </div>
               </div>
@@ -347,9 +294,7 @@ B2B Agri Transaction
                     </div>
                   </div>
                   <div className='services-one__single-content text-center'>
-                    <div className='services-one__single-img-icon'>
-                      <span className='icon-harvest'></span>
-                    </div>
+                   
                     <h3>
                       <a href='services-details.html'>
                         Best <br />
@@ -357,9 +302,7 @@ B2B Agri Transaction
                       </a>
                     </h3>
                     <p>Sourcing excellence to negate price dynamics</p>
-                    <a href='services-details.html' className='read-more-btn'>
-                      <span className='icon-right-arrow-2'></span>
-                    </a>
+                 
                   </div>
                 </div>
               </div>
@@ -381,9 +324,7 @@ B2B Agri Transaction
                     </div>
                   </div>
                   <div className='services-one__single-content text-center'>
-                    <div className='services-one__single-img-icon'>
-                      <span className='icon-growth'></span>
-                    </div>
+                    
                     <h3>
                       <a href='services-details.html'>
                         Protect <br />
@@ -391,9 +332,7 @@ B2B Agri Transaction
                       </a>
                     </h3>
                     <p>Protects both buyer and the seller in a transaction</p>
-                    <a href='services-details.html' className='read-more-btn'>
-                      <span className='icon-right-arrow-2'></span>
-                    </a>
+                    
                   </div>
                 </div>
               </div>
