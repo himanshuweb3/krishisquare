@@ -30,7 +30,7 @@ const Products = ({ user }) => {
             <ProductCard
               user={user}
               key={product._id}
-              img={`assets/images/products/${product.photo}`}
+              img={`${product.photo.url}`}
               text={product.name}
             />
           ))}

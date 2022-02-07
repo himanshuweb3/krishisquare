@@ -62,7 +62,7 @@ const ViewProducts = () => {
               <tr data-id={product._id} key={product._id}>
                 <th scope='row'>{product._id}</th>
                 <td>
-                  <img src={`assets/images/products/${product.photo}`} alt='' />{" "}
+                  <img src={`${product.photo.url}`} alt='' />{" "}
                 </td>
                 <td>{product.name}</td>
                 <td>

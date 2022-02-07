@@ -16,8 +16,8 @@ const CreateProduct = () => {
       const config = { headers: { "Content-Type": "multipart/form-data" } };
       const myForm = new FormData();
 
-      myForm.set("name", name);
-      myForm.set("photo", avatar);
+      myForm.append("name", name);
+      myForm.append("photo", avatar);
 
       await axios.post("/api/v1/products", myForm, config);
 

@@ -3,38 +3,52 @@ const catchAsync = require("../middlewares/catchAsync");
 const Product = require("../models/productModel");
 const Query = require("../models/queryModel");
 const AppError = require("../utils/AppError");
+const cloudinary = require("cloudinary");
 
-const multerStorage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, "./frontend/public/assets/images/products");
-  },
-  filename: (req, file, cb) => {
-    const ext = file.mimetype.split("/")[1];
-    cb(null, `product-${Date.now()}.${ext}`);
-  },
-});
+// const multerStorage = multer.diskStorage({
+//   destination: (req, file, cb) => {
+//     cb(null, "./frontend/public/assets/images/products");
+//   },
+//   filename: (req, file, cb) => {
+//     const ext = file.mimetype.split("/")[1];
+//     cb(null, `product-${Date.now()}.${ext}`);
+//   },
+// });
 
-const multerFilter = (req, file, cb) => {
-  if (file.mimetype.startsWith("image")) {
-    cb(null, true);
-  } else {
-    cb(new AppError("Please upload an image!", 400), false);
-  }
-};
+// const multerFilter = (req, file, cb) => {
+//   if (file.mimetype.startsWith("image")) {
+//     cb(null, true);
+//   } else {
+//     cb(new AppError("Please upload an image!", 400), false);
+//   }
+// };
 
-const upload = multer({
-  storage: multerStorage,
-  fileFilter: multerFilter,
-});
+// const upload = multer({
+//   storage: multerStorage,
+//   fileFilter: multerFilter,
+// });
 
-exports.uploadProductPhoto = upload.single("photo");
+// exports.uploadProductPhoto = upload.single("photo");
 
 exports.addProduct = catchAsync(async (req, res, next) => {
-  const obj = { name: req.body.name };
-  if (req.file) {
-    obj.photo = req.file.filename;
-  }
-  const product = await Product.create(obj);
+  const name = req.body.name;
+
+  const myCloud = await cloudinary.v2.uploader.upload(
+    req.files.photo.tempFilePath,
+    {
+      folder: "products",
+      // crop: "scale",
+    }
+  );
+
+  const product = await Product.create({
+    name,
+    photo: {
+      public_id: myCloud.public_id,
+      url: myCloud.secure_url,
+    },
+  });
+
   res.status(201).json({
     status: "success",
     product,
@@ -50,14 +64,25 @@ exports.getProducts = catchAsync(async (req, res, next) => {
 });
 
 exports.updateProduct = catchAsync(async (req, res, next) => {
-  console.log(req.file);
   let obj = {};
   if (req.body.name) {
     obj.name = req.body.name;
   }
-  if (req.file) {
-    obj.photo = req.file.filename;
+
+  if (req.files.photo) {
+    const myCloud = await cloudinary.v2.uploader.upload(
+      req.files.photo.tempFilePath,
+      {
+        folder: "products",
+        // crop: "scale",
+      }
+    );
+    obj.photo = {
+      public_id: myCloud.public_id,
+      url: myCloud.secure_url,
+    };
   }
+
   const updatedProduct = await Product.findByIdAndUpdate(req.params.id, obj, {
     new: true,
     runValidators: true,

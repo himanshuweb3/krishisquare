@@ -8,8 +8,14 @@ const productSchema = new mongoose.Schema({
     minLength: [2, "Name must be at least 2 characters"],
   },
   photo: {
-    type: String,
-    required: [true, "Please provide an image"],
+    public_id: {
+      type: String,
+      required: true,
+    },
+    url: {
+      type: String,
+      required: true,
+    },
   },
 });
 
