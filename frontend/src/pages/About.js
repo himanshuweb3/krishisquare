@@ -25,6 +25,7 @@ const About = () => {
               <img src="https://escrowindia.globalgroominghealthcare.com/assets/images/about/about.jpg" />
             </div>
 </div>
+</div>
 
       {/*About Three Start*/}
       <section className='about-three'>
