@@ -39,7 +39,7 @@ const Footer = ({ user, setUser }) => {
                   <div className='row'>
                     {/*Start Footer Widget Column*/}
                     <div
-                      className='col-xl-3 col-lg-6 col-md-6
+                      className='col-xl-3 col-lg-6 col-md-6'
                     >
                       <div className='footer-widget__column footer-widget__about'>
                         <div className='footer-widget__about-logo'>
