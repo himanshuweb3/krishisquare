@@ -162,6 +162,18 @@ button {
   padding: 0;
 }
 
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #157347;
+    border-color: #157347;
+}
+.card-footer {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    border-top: 0px solid;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
