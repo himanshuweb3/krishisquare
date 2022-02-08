@@ -115,7 +115,7 @@ We believe the world will look very different after this pandemic, as it did aft
         </div>
 
 
-<div className='container our-team '>
+<div className='container our-team'>
           <div className='text-center clearfix'>
            <h2>Our Founders</h2>
           </div>
