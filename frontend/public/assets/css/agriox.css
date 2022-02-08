@@ -2021,24 +2021,7 @@ button {
   transition-delay: 1000ms;
 }
 
-.main-slider-tagline::before {
-  position: absolute;
-  left: 0;
-  bottom: -3px;
-  right: 0;
-  width: 0px;
-  background: #ffffff;
-  height: 1px;
-  content: "";
-  -webkit-transition: all 1500ms ease;
-  transition: all 1500ms ease;
-}
 
-.main-slider-one .swiper-slide-active .main-slider-tagline::before {
-  width: 100%;
-  -webkit-transition-delay: 1200ms;
-  transition-delay: 1200ms;
-}
 
 .main-slider__title {
   color: #ffffff;
@@ -2075,22 +2058,16 @@ button {
 
 .main-slider__text {
   color: #ffffff;
-  font-size: 18px;
-  line-height: 36px;
+  font-size: 50px;
+  line-height: 56px;
+	text-align:center;
   font-weight: 500;
   opacity: 0;
-  -webkit-transition: all 1500ms ease;
-  transition: all 1500ms ease;
-  -webkit-transform: translateY(80px);
-  transform: translateY(80px);
+ 
 }
 
 .main-slider-one .swiper-slide-active .main-slider__text {
   opacity: 1;
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
-  -webkit-transition-delay: 1600ms;
-  transition-delay: 1600ms;
 }
 
 .main-slider__button-box {
