@@ -640,18 +640,16 @@ button {
 .stricky-header .main-menu__list > li > a {
   position: relative;
   display: inline-block;
-  color: var(--agriox-color-1, #687469);
+  color: #000;
   font-size: 16px;
   font-weight: 500;
   text-transform: none;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
-  font-family: var(--agriox-font, "DM Sans", sans-serif);
+      font-family: "Roboto",sans-serif;
   padding-top: 38px;
   padding-bottom: 38px;
   z-index: 1;
 }
-
+/*
 .main-menu .main-menu__list > li > a::before {
   content: "";
   position: absolute;
@@ -689,22 +687,24 @@ button {
   transform-origin: left center;
   z-index: -1;
 }
-
+*/
 .main-menu .main-menu__list > li.current > a,
 .main-menu .main-menu__list > li:hover > a,
 .stricky-header .main-menu__list > li.current > a,
 .stricky-header .main-menu__list > li:hover > a {
+  /*
   -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
   -webkit-transform-origin: right center;
   transform-origin: right center;
+  */
 }
 
 .main-menu .main-menu__list > li.current > a,
 .main-menu .main-menu__list > li:hover > a,
 .stricky-header .main-menu__list > li.current > a,
 .stricky-header .main-menu__list > li:hover > a {
-  color: var(--agriox-primary, #334b35);
+  color: #ffb11f;
 }
 
 .main-menu .main-menu__list > li.dropdown a,
@@ -716,10 +716,11 @@ button {
 .main-menu .main-menu__list > li:hover > a::before,
 .stricky-header .main-menu__list > li.current > a::before,
 .stricky-header .main-menu__list > li:hover > a::before {
-  -webkit-transform: scale(1, 1);
+ /* -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
   -webkit-transform-origin: right center;
   transform-origin: right center;
+	*/
 }
 
 .main-menu .main-menu__list li ul,
@@ -783,7 +784,7 @@ button {
 .stricky-header .main-menu__list li ul li a {
   position: relative;
   display: block;
-  color: var(--agriox-color-1, #687469);
+  color: #000;
   font-size: 16px;
   line-height: 28px;
   font-weight: 500;
@@ -791,9 +792,11 @@ button {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  -webkit-transition: 500ms;
+	 font-family: "Roboto",sans-serif;
+ /* -webkit-transition: 500ms;
   transition: 500ms;
   font-family: var(--agriox-font, "DM Sans", sans-serif);
+	*/
 }
 
 .main-menu .main-menu__list li ul li:last-child > a,
@@ -805,7 +808,7 @@ button {
 .main-menu .main-menu__list li ul li:hover > a,
 .stricky-header .main-menu__list li ul li:hover > a {
   background-color: var(--agriox-base, #f1cf69);
-  color: var(--agriox-primary, #334b35);
+  color: #ffb11f;
 }
 
 .main-menu .main-menu__list li ul li > ul,
@@ -2061,7 +2064,7 @@ button {
   font-size: 50px;
   line-height: 56px;
 	text-align:center;
-  font-weight: 500;
+  font-weight: 700;
   opacity: 0;
  
 }
