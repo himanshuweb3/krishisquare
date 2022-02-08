@@ -39,8 +39,7 @@ const Footer = ({ user, setUser }) => {
                   <div className='row'>
                     {/*Start Footer Widget Column*/}
                     <div
-                      className='col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp'
-                      data-wow-delay='0.1s'
+                      className='col-xl-3 col-lg-6 col-md-6
                     >
                       <div className='footer-widget__column footer-widget__about'>
                         <div className='footer-widget__about-logo'>
@@ -52,53 +51,63 @@ const Footer = ({ user, setUser }) => {
                           </a>
                         </div>
                         <p className='footer-widget__about-text'>
-                          Lorem ipsum dolor sit amet consect etur adi pisicing
-                          elit sed.
+                          Krishi Square is B2B agri tech platform to enable discovery and trust in trade for small and medium size businesses(SMBs) and Corporates.
                         </p>
-                        <div className='footer-widget__about-contact-box'>
-                          <p className='phone'>
-                            <a href='tel:123456789'>
-                              <i className='fas fa-phone-square-alt'></i>+92 666
-                              888 0000
-                            </a>
-                          </p>
-                          <p>
-                            <a href='mailto:needhelp@company.com'>
-                              <i className='fa fa-envelope'></i>
-                              needhelp@company.com
-                            </a>
-                          </p>
-                          <p className='text'>
-                            <i className='fas fa-map-marker-alt'></i>666 road,
-                            broklyn street new york
-                          </p>
-                        </div>
+                       
                       </div>
                     </div>
                     {/*End Footer Widget Column*/}
 
+                   <div className='col-xl-3 col-lg-6 col-md-6' >
+                     
+                     <div className='footer-widget__about-contact-box'>
+                       <h2 className='footer-widget__title'>Get In Touch</h2>
+                          <p className='phone'>
+                            <a href='tel:+91-9619137986'>
+                              <i className='fas fa-phone-square-alt'></i>+91-9619137986
+                            </a>
+                          </p>
+                          <p>
+                            <a href='mailto:info@krishisquare.com'>
+                              <i className='fa fa-envelope'></i>info@krishisquare.com
+                            </a>
+                          </p>
+                          <p className='text'>
+                            <i className='fas fa-map-marker-alt'></i>144 Senapati Bapat Road, Matunga West Mumbai - 400 016
+                          </p>
+                        </div>
+                     
+                     </div>
+
                     {/*Start Footer Widget Column*/}
                     <div
-                      className='col-xl-2 col-lg-6 col-md-6 wow animated fadeInUp'
-                      data-wow-delay='0.5s'
+                      className='col-xl-2 col-lg-6 col-md-6 '
                     >
                       <div className='footer-widget__column footer-widget__explore'>
+
                         <h2 className='footer-widget__title'>Explore</h2>
+
                         <ul className='footer-widget__explore-list'>
                           <li className='footer-widget__explore-list-item'>
-                            <a href='projects.html'>New Projects</a>
+                            <a href='about'>About us</a>
                           </li>
                           <li className='footer-widget__explore-list-item'>
-                            <a href='services.html'>Our Services</a>
+                            <a href='products'>Marketplace</a>
                           </li>
                           <li className='footer-widget__explore-list-item'>
-                            <a href='about.html'>About Us</a>
+                            <a href='#'>Escrow</a>
                           </li>
                           <li className='footer-widget__explore-list-item'>
-                            <a href='#'>Get in Touch</a>
+                            <a href='insights'>Insights</a>
                           </li>
                           <li className='footer-widget__explore-list-item'>
-                            <a href='#'>Volunteers</a>
+                            <a href='contact'>Contact us</a>
+                          </li>
+<li className='footer-widget__explore-list-item'>
+                            <a href='#'>Terms & Conditions</a>
+                          </li>
+<li className='footer-widget__explore-list-item'>
+                            <a href='#'>Privacy Policy</a>
                           </li>
                         </ul>
                       </div>
