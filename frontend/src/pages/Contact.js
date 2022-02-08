@@ -7,17 +7,12 @@ const Contact = () => {
       <section
         className='page-header clearfix'
         style={{
-          backgroundImage: "url(assets/images/backgrounds/page-header-bg.jpg)",
+          backgroundImage: "url(https://escrowindia.globalgroominghealthcare.com/assets/images/about/03.png)",
         }}
       >
         <div className='container'>
           <div className='page-header__inner text-center clearfix'>
-            <ul className='thm-breadcrumb'>
-              <li>
-                <a href='index-main.html'>Home</a>
-              </li>
-              <li>Contact</li>
-            </ul>
+           
             <h2>Contact Us</h2>
           </div>
         </div>
@@ -27,6 +22,43 @@ const Contact = () => {
       {/*Start Contact Page */}
       <section className='contact-page'>
         <div className='container'>
+          
+          <div className='row text-center'>
+            <h3>Want to get in touch? We'd love to hear from you. Here's how you can reach us...</h3>
+
+            </div>
+            
+            <div className='row contactdet'>
+              
+              <div className='col-xl-4 col-lg-4'>
+              <div class="icon">
+                  <span class="icon-map"></span>
+              </div>
+              <div class="title">
+                  <p>Krishna Kunj, Senapati Bapat Marg, Mahalaxmi Sindhi Colony, Matunga West, Mumbai, Maharashtra 400016</p>
+              </div>
+              </div>
+              
+            <div className='col-xl-4 col-lg-4'>
+               <div class="icon">
+                  <span class="icon-phone"></span>
+              </div>
+              <div class="title">
+                  <p>+91-9619137986</p>
+              </div>
+              </div>
+            
+            <div className='col-xl-4 col-lg-4'>
+              <div class="icon">
+                  <span class="icon-envelope"></span>
+              </div>
+              <div class="title">
+                  <p>info@krishisquare.com</p>
+              </div>
+              </div>
+            
+              </div>
+
           <div className='row'>
             {/*Start Contact Page Left */}
             <div className='col-xl-4 col-lg-4'>
