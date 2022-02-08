@@ -119,6 +119,23 @@ const Footer = ({ user, setUser }) => {
             </div>
           </div>
         </div>
+
+<!--Start Footer One Bottom-->
+            <div class="footer-one__bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="footer-one__bottom-inner">
+                                <div class="footer-one__bottom-text">
+                                    <p>&copy; Copyright 2022 Krishi Square Private Limited. All Rights Reserved. </p>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Footer One Bottom-->
       </footer>
       <div className='mobile-nav__wrapper'>
         <div className='mobile-nav__overlay mobile-nav__toggler'></div>
@@ -129,7 +146,7 @@ const Footer = ({ user, setUser }) => {
           </span>
 
           <div className='logo-box'>
-            <a href='index-main.html' aria-label='logo image'>
+            <a href='/' aria-label='logo image'>
               <img
                 src='assets/images/resources/mobilemenu_logo.png'
                 width='155'
@@ -141,7 +158,7 @@ const Footer = ({ user, setUser }) => {
           <div className='mobile-nav__container'>
             <ul className='main-menu__list'>
               <li className='dropdown'>
-                <Link onClick={closeNav} to='/home'>
+                <Link onClick={closeNav} to='/'>
                   Home
                 </Link>
               </li>
@@ -156,9 +173,21 @@ const Footer = ({ user, setUser }) => {
                 </Link>
               </li>
               <li className='dropdown'>
+                <Link onClick={closeNav} to='/'>
+                  Marketplace
+                </Link>
+               <ul>
+                   <li className='dropdown'>
                 <Link onClick={closeNav} to='/products'>
                   Products
                 </Link>
+              </li>
+<li className='dropdown'>
+                    <Link onClick={closeNav} to='/signup'>
+                      Sign Up
+                    </Link>
+                  </li>
+                  </ul>
               </li>
 
               {loggedUser ? (
