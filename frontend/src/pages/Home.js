@@ -256,16 +256,21 @@ B2B Agri Transaction
             <div className='row justify-content-center'>
               {/*Start Single Services One */}
               <div
-                className='col-xl-3 col-lg-6 wow fadeInLeft'
-                data-wow-delay='0ms'
-                data-wow-duration='1000ms'
+                className='col-xl-3 col-lg-6'
               >
                 <div className='services-one__single'>
-                 
+                  <div className='services-one__single-img'>
+                    <div className='services-one__single-img-inner'>
+                      <img
+                        src='https://diqzjbzmrib1o.cloudfront.net/production/agri/images/multi_commodity_platform.png'
+                        alt=''
+                      />
+                    </div>
+                  </div>
                   <div className='services-one__single-content text-center'>
                    
                     <h3>
-                      <a href='services-details.html'>
+                      <a href='#'>
                         Multi commodity
                         <br />
                         platform
@@ -280,15 +285,13 @@ B2B Agri Transaction
 
               {/*Start Single Services One */}
               <div
-                className='col-xl-3 col-lg-6 wow fadeInLeft'
-                data-wow-delay='100ms'
-                data-wow-duration='1000ms'
+                className='col-xl-3 col-lg-6 '
               >
                 <div className='services-one__single'>
                   <div className='services-one__single-img'>
                     <div className='services-one__single-img-inner'>
                       <img
-                        src='assets/images/services/services-v1-img2.jpg'
+                        src='https://diqzjbzmrib1o.cloudfront.net/production/agri/images/best_pricing.png'
                         alt=''
                       />
                     </div>
@@ -296,7 +299,7 @@ B2B Agri Transaction
                   <div className='services-one__single-content text-center'>
                    
                     <h3>
-                      <a href='services-details.html'>
+                      <a href='#'>
                         Best <br />
                         Pricing
                       </a>
@@ -310,15 +313,13 @@ B2B Agri Transaction
 
               {/*Start Single Services One */}
               <div
-                className='col-xl-3 col-lg-6 wow fadeInRight'
-                data-wow-delay='0ms'
-                data-wow-duration='1000ms'
+                className='col-xl-3 col-lg-6'
               >
                 <div className='services-one__single'>
                   <div className='services-one__single-img'>
                     <div className='services-one__single-img-inner'>
                       <img
-                        src='assets/images/services/services-v1-img3.jpg'
+                        src='https://diqzjbzmrib1o.cloudfront.net/production/agri/images/flexible_payment.png'
                         alt=''
                       />
                     </div>
@@ -326,7 +327,7 @@ B2B Agri Transaction
                   <div className='services-one__single-content text-center'>
                     
                     <h3>
-                      <a href='services-details.html'>
+                      <a href='#'>
                         Protect <br />
                         Payment
                       </a>
