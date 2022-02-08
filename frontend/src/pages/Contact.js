@@ -139,6 +139,7 @@ const Contact = () => {
             {/*End Contact Page Right */}
           </div>
         </div>
+</div>
       </section>
       {/*End Contact Page */}
     </>
