@@ -120,7 +120,7 @@ const Footer = ({ user, setUser }) => {
           </div>
         </div>
 
-<!--Start Footer One Bottom-->
+
             <div class="footer-one__bottom">
                 <div class="container">
                     <div class="row">
@@ -135,7 +135,7 @@ const Footer = ({ user, setUser }) => {
                     </div>
                 </div>
             </div>
-            <!--End Footer One Bottom-->
+           
       </footer>
       <div className='mobile-nav__wrapper'>
         <div className='mobile-nav__overlay mobile-nav__toggler'></div>
