@@ -113,12 +113,10 @@ const Header = ({ user, setUser }) => {
                           </li>
                         ) : (
                           <>
-                            <li className='dropdown'>
-                              <Link to='/login'>Login</Link>
+                            <li className='dropdown' style="background: rgb(128, 128, 128);">
+                              <Link to='/login'>Login / Register</Link>
                             </li>
-                            <li className='dropdown'>
-                              <Link to='/signup'>Sign Up</Link>
-                            </li>
+                           
                           </>
                         )}
                         {loggedUser && loggedUser.role === "admin" ? (
