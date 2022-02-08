@@ -204,7 +204,7 @@ B2B Agri Transaction
           <div className='container'>
             <div className='row'>
               {/*Start About One Left*/}
-              <div className='col-xl-12'>
+              <div className='col-xl-6'>
                 <div className='about-one__left'>
                   <div className='about-one__left-img'>
                     <div className='about-one__left-img-inner'>
@@ -216,7 +216,7 @@ B2B Agri Transaction
               {/*End About One Left*/}
 
               {/*Start About One Content*/}
-              <div className='col-xl-12'>
+              <div className='col-xl-6'>
                 <div className='about-one__content'>
                   <div className='sec-title'>                  
                     
