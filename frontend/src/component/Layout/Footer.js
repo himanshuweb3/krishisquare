@@ -39,13 +39,13 @@ const Footer = ({ user, setUser }) => {
                   <div className='row'>
                     {/*Start Footer Widget Column*/}
                     <div
-                      className='col-xl-3 col-lg-6 col-md-6'
+                      className='col-xl-4 col-lg-6 col-md-6'
                     >
                       <div className='footer-widget__column footer-widget__about'>
                         <div className='footer-widget__about-logo'>
                           <a href='index-main.html'>
                             <img
-                              src='assets/images/resources/footer-logo.png'
+                              src='https://escrowindia.globalgroominghealthcare.com/assets/images/logo/logo1.png'
                               alt=''
                             />
                           </a>
@@ -60,7 +60,7 @@ const Footer = ({ user, setUser }) => {
 
                    <div className='col-xl-3 col-lg-6 col-md-6' >
                      
-                     <div className='footer-widget__about-contact-box'>
+                     <div className='footer-widget__column footer-widget__explore'>
                        <h2 className='footer-widget__title'>Get In Touch</h2>
                           <p className='phone'>
                             <a href='tel:+91-9619137986'>
@@ -81,7 +81,7 @@ const Footer = ({ user, setUser }) => {
 
                     {/*Start Footer Widget Column*/}
                     <div
-                      className='col-xl-2 col-lg-6 col-md-6 '
+                      className='col-xl-3 col-lg-6 col-md-6 '
                     >
                       <div className='footer-widget__column footer-widget__explore'>
 
