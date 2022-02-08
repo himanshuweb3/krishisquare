@@ -4506,7 +4506,7 @@ button {
   position: relative;
   display: block;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   padding-bottom: 28px;
 }
 
@@ -4684,38 +4684,17 @@ button {
   position: relative;
   display: inline-block;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 23px;
   font-weight: 400;
   font-family: var(--agriox-font, "DM Sans", sans-serif);
-  -webkit-transition: all 200ms linear;
-  transition: all 200ms linear;
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
+  
 }
 
 .footer-widget__explore-list-item a:hover {
   color: #ffffff;
 }
 
-.footer-widget__explore-list-item a::before {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 0;
-  height: 2px;
-  background: var(--agriox-base, #f1cf69);
-  content: "";
-  -webkit-transition: all 200ms linear;
-  transition: all 200ms linear;
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
-
-.footer-widget__explore-list-item:hover a::before {
-  width: 100%;
-}
 
 .footer-widget__newletter {
   position: relative;
@@ -6782,7 +6761,7 @@ button {
   display: block;
   z-index: 1;
 }
-
+/*
 .about-three__img-box-img::before {
   position: absolute;
   top: 350px;
@@ -6795,7 +6774,7 @@ button {
   content: "";
   z-index: 5;
 }
-
+*/
 .about-three__img-box-img-inner {
   position: relative;
   display: block;
@@ -6804,7 +6783,7 @@ button {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-
+/*
 .about-three__img-box-img-inner::before {
   position: absolute;
   top: 0;
@@ -6834,7 +6813,7 @@ button {
   -webkit-animation: shine 1.5s;
   animation: shine 1.5s;
 }
-
+*/
 /***
 =============================================
     Services Details
