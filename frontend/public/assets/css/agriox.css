@@ -655,12 +655,14 @@ button {
   margin-left: 60px;
 }
 
+.main-menu .main-menu__list > li:last-child { background-color:rgba(0,0,0,.5); }
+
 .main-menu .main-menu__list > li > a,
 .stricky-header .main-menu__list > li > a {
   position: relative;
   display: inline-block;
   color: #000;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   text-transform: none;
       font-family: "Roboto",sans-serif;
