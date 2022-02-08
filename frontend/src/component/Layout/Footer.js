@@ -177,12 +177,12 @@ const Footer = ({ user, setUser }) => {
                   Marketplace
                 </Link>
                <ul>
-                   <li className='dropdown'>
+                   <li>
                 <Link onClick={closeNav} to='/products'>
                   Products
                 </Link>
               </li>
-<li className='dropdown'>
+                  <li>
                     <Link onClick={closeNav} to='/signup'>
                       Sign Up
                     </Link>
