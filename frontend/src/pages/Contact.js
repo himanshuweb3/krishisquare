@@ -63,10 +63,9 @@ const Contact = () => {
             {/*Start Contact Page Left */}
             <div className='col-xl-6 col-lg-6'>
               <div className='contact-page__left'>
-              <iframe
-                src="https://www.google.com/maps/place/144,+Senapati+Bapat+Marg,+Mahalaxmi+Sindhi+Colony,+Matunga+West,+Mumbai,+Maharashtra+400016/@19.0285241,72.8441096,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7ced6c5e64c0f:0xf9d8cb93831fe9dd!8m2!3d19.028519!4d72.8462983"
-                class="contact-page-google-map__one" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7543.620419613668!2d72.846313!3d19.028083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ced6d078c7cb%3A0x29775369269ed5c1!2sKrishna%20Kunj%2C%20Senapati%20Bapat%20Marg%2C%20Mahalaxmi%20Sindhi%20Colony%2C%20Matunga%20West%2C%20Mumbai%2C%20Maharashtra%20400016!5e0!3m2!1sen!2sin!4v1644339866594!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
+             </div>
             {/*End Contact Page Right */}
 
             {/*Start Contact Page Right */}
@@ -139,7 +138,7 @@ const Contact = () => {
             {/*End Contact Page Right */}
           </div>
         </div>
-</div>
+
       </section>
       {/*End Contact Page */}
     </>
