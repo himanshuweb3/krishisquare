@@ -43,7 +43,7 @@ const Footer = ({ user, setUser }) => {
                     >
                       <div className='footer-widget__column footer-widget__about'>
                         <div className='footer-widget__about-logo'>
-                          <a href='index-main.html'>
+                          <a href='/'>
                             <img
                               src='https://escrowindia.globalgroominghealthcare.com/assets/images/logo/logo1.png'
                               alt=''
@@ -62,17 +62,17 @@ const Footer = ({ user, setUser }) => {
                      
                      <div className='footer-widget__column footer-widget__explore'>
                        <h2 className='footer-widget__title'>Get In Touch</h2>
-                          <p className='phone'>
+                          <p className='footer-widget__about-text'>
                             <a href='tel:+91-9619137986'>
                               <i className='fas fa-phone-square-alt'></i>+91-9619137986
                             </a>
                           </p>
-                          <p>
+                          <p className='footer-widget__about-text'>
                             <a href='mailto:info@krishisquare.com'>
                               <i className='fa fa-envelope'></i>info@krishisquare.com
                             </a>
                           </p>
-                          <p className='text'>
+                          <p className='footer-widget__about-text'>
                             <i className='fas fa-map-marker-alt'></i>144 Senapati Bapat Road, Matunga West Mumbai - 400 016
                           </p>
                         </div>
