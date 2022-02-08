@@ -87,9 +87,9 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--agriox-primary, #334b35);
+  color: #000;
   font-weight: 700;
-  font-family: var(--agriox-font-2, "Averia Sans Libre", cursive);
+  /*font-family: var(--agriox-font-2, "Averia Sans Libre", cursive);*/
   margin: 0;
 }
 
@@ -2328,44 +2328,14 @@ button {
   width: 100%;
 }
 
-.about-one__left::before {
-  content: "";
-  width: 10000px;
-  height: 100%;
-  position: absolute;
-  right: 50%;
-  top: -140px;
-  background-color: #f6f4ec;
-}
+
 
 .about-one__left-img {
   position: relative;
   display: block;
 }
 
-.about-one__left-img::after {
-  content: "";
-  width: 28px;
-  height: 110px;
-  background-color: var(--agriox-primary, #334b35);
-  position: absolute;
-  left: -88px;
-  bottom: 0;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
 
-.about-one__left-img::before {
-  position: absolute;
-  left: -30px;
-  bottom: 0;
-  width: 30px;
-  height: 330px;
-  background: var(--agriox-base, #f1cf69);
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  content: "";
-}
 
 .about-one__left-img-inner {
   position: relative;
@@ -2376,35 +2346,6 @@ button {
   border-bottom-right-radius: 10px;
 }
 
-.about-one__left-img-inner::before {
-  position: absolute;
-  top: 0;
-  left: -100%;
-  display: block;
-  content: "";
-  width: 50%;
-  height: 100%;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(rgba(255, 255, 255, 0)),
-    to(rgba(255, 255, 255, 0.3))
-  );
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.3) 100%
-  );
-  -webkit-transform: skewX(-25deg);
-  transform: skewX(-25deg);
-  z-index: 2;
-}
-
-.about-one__left:hover .about-one__left-img-inner::before {
-  -webkit-animation: shine 1.3s;
-  animation: shine 1.3s;
-}
 
 .about-one__left-img-inner img {
   width: 100%;
@@ -3096,19 +3037,6 @@ button {
   margin-bottom: 54px;
 }
 
-.services-one__bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 508px;
-  background: #f6f4ec;
-  z-index: -1;
-  background-image: url(../images/backgrounds/service-top-bg-1-1.png);
-  background-repeat: repeat-x;
-  background-position: bottom center;
-}
 
 .services-one__single {
   position: relative;
