@@ -4831,7 +4831,7 @@ button {
 .footer-one__bottom {
   position: relative;
   display: block;
-  background: var(--agriox-secondary, #6d8c54);
+  background: #feb500;
   padding: 29px 0px 27px;
 }
 
