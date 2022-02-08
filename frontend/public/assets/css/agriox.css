@@ -655,7 +655,7 @@ button {
   margin-left: 60px;
 }
 
-.main-menu .main-menu__list > li:last-child { background-color:rgba(0,0,0,.5); }
+.main-menu .main-menu__list > li:last-child a { background-color:rgba(0,0,0,.5);    padding: 7px 10px; }
 
 .main-menu .main-menu__list > li > a,
 .stricky-header .main-menu__list > li > a {
