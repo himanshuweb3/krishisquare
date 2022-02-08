@@ -41,7 +41,7 @@ const Contact = () => {
               
             <div className='col-xl-4 col-lg-4'>
                <div class="icon">
-                  <span class="icon-phone"></span>
+                  <span class="icon-phone-call-2"></span>
               </div>
               <div class="title">
                   <p>+91-9619137986</p>
@@ -61,31 +61,16 @@ const Contact = () => {
 
           <div className='row'>
             {/*Start Contact Page Left */}
-            <div className='col-xl-4 col-lg-4'>
+            <div className='col-xl-6 col-lg-6'>
               <div className='contact-page__left'>
-                <div className='sec-title'>
-                  <div className='icon'>
-                    <img
-                      src='assets/images/resources/sec-title-icon1.png'
-                      alt=''
-                    />
-                  </div>
-                  <span className='sec-title__tagline'>Contact now</span>
-                  <h2 className='sec-title__title'>
-                    Get in Touch <br />
-                    with Us
-                  </h2>
-                </div>
-                <p className='contact-page__left-text'>
-                  We are committed to providing our customers with exceptional
-                  service while offering our employees the best training.
-                </p>
-              </div>
+              <iframe
+                src="https://www.google.com/maps/place/144,+Senapati+Bapat+Marg,+Mahalaxmi+Sindhi+Colony,+Matunga+West,+Mumbai,+Maharashtra+400016/@19.0285241,72.8441096,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7ced6c5e64c0f:0xf9d8cb93831fe9dd!8m2!3d19.028519!4d72.8462983"
+                class="contact-page-google-map__one" allowfullscreen></iframe>
             </div>
             {/*End Contact Page Right */}
 
             {/*Start Contact Page Right */}
-            <div className='col-xl-8 col-lg-8'>
+            <div className='col-xl-6 col-lg-6'>
               <div className='contact-page__right'>
                 <form
                   action='assets/inc/sendemail.php'
