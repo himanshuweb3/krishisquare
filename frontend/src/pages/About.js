@@ -117,12 +117,13 @@ We believe the world will look very different after this pandemic, as it did aft
 
 
 <div className='container our-team'>
+   <div className='row'>
           <div className='text-center clearfix'>
            <h2>Our Founders</h2>
           </div>
 <div className='col-xl-6 col-lg-5'><h5>Vikas Kabra</h5><h6>Co-Founder</h6></div>
 <div className='col-xl-6 col-lg-5'><h5>Divyanshu Tripathi</h5><h6>Co-Founder</h6></div>
-
+</div>
 </div>
       
     </>
