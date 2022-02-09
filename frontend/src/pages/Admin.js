@@ -33,7 +33,7 @@ const Admin = ({ user, setUser }) => {
       style={{ minHeight: "80vh" }}
       className='d-flex flex-wrap'
     >
-      <div className='flex-shrink-0 p-3 bg-white' style={{ width: "280px" }}>
+      <div className='flex-shrink-0 p-3' style={{ width: '280px', background-color: '#f5f6fa', border-right-color: '#e5e9f2' }}>
         <a
           href='/'
           className='d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom'
@@ -41,7 +41,7 @@ const Admin = ({ user, setUser }) => {
           {/* <svg className='bi me-2' width='30' height='24'>
             <use xlink:href='#bootstrap' />
           </svg> */}
-          <span className='fs-5 fw-semibold'>Admin</span>
+          <span className='fw-semibold' style={{ fonts-size: '30px' }}>Welcome Admin</span>
         </a>
         <ul className='list-unstyled ps-0'>
           <li className='mb-1'>
