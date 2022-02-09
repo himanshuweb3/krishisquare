@@ -21,7 +21,7 @@ const Escrow = () => {
 
 <div className='container aboutintro'>
           <div className='row'>
-            <div className='col-xl-12 col-lg-12'>
+            <div className='col-xl-12 col-lg-12 text-center'>
               <h3>How Escrow Works</h3>
             </div>
 </div>
@@ -90,7 +90,7 @@ We believe the world will look very different after this pandemic, as it did aft
 
 
       
-    </>
+    
   );
 };
 
