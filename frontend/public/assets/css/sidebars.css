@@ -88,7 +88,7 @@ main {
 .fw-semibold { font-weight: 600; }
 .lh-tight { line-height: 1.25; }
 
-.adminside { width: 280px; background-color: #f5f6fa; border-right-color: #e5e9f2 ; }
+.adminside { width: 280px; background-color:#f5f6fa; border-right-color: #e5e9f2 ; }
 table tr:hover { 
     background: #f8f9fc;
     /*box-shadow: 0 0 10px -4px rgb(54 74 99 / 20%);*/
