@@ -12,7 +12,7 @@ const Admin = ({ user, setUser }) => {
 
   useEffect(() => {
     if (user && user.role !== "admin") {
-      history.push("/home");
+      history.push("/");
     }
   }, [user, history]);
 
@@ -20,7 +20,7 @@ const Admin = ({ user, setUser }) => {
     try {
       await axios.get("/api/v1/users/logout");
       setUser();
-      history.push("/home");
+      history.push("/");
     } catch (error) {
       console.log(error);
     }
