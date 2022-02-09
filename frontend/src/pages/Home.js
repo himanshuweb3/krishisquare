@@ -325,7 +325,7 @@ B2B Agri Transaction
                     <h3>
                       <a href='#'>
                         Protect <br />
-                        Payment
+                        payment
                       </a>
                     </h3>
                     <p>Protects both buyer and the seller in a transaction</p>
