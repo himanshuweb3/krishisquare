@@ -284,7 +284,7 @@ button {
     padding-left: 30px;
 }
 
-.notreg { background: skyblue; padding: 7px 5px; }
+.notreg { background: skyblue; padding: 7px 5px;     color: #000;}
 
 .container {
   padding-left: 15px;
