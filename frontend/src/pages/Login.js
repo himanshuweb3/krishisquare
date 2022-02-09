@@ -91,7 +91,7 @@ const Login = ({ setUser }) => {
               </div>
             </div>
           </form>
-<div className='notreg'>Not Registered <a href="signup">click here</a> for *Registration*</div>
+<div className='notreg'>Not Registered ? <a href="signup">click here</a> for *Registration*</div>
         </div>
       </div>
     </div>
