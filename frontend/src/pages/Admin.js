@@ -41,6 +41,7 @@ const Admin = ({ user, setUser }) => {
           {/* <svg className='bi me-2' width='30' height='24'>
             <use xlink:href='#bootstrap' />
           </svg> */}
+          <img src="assets/images/resources/logo-1.png" />
           <h3 className='fw-semibold' > Welcome Admin </h3>
         </a>
         <ul className='list-unstyled ps-0'>
