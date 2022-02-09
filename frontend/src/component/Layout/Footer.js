@@ -64,16 +64,16 @@ const Footer = ({ user, setUser }) => {
                        <h2 className='footer-widget__title'>Get In Touch</h2>
                           <p className='footer-widget__about-text'>
                             <a href='tel:+91-9619137986'>
-                              <i className='fas fa-phone-square-alt'></i>+91-9619137986
+                              <i className='fas fa-phone-square-alt'></i> +91-9619137986
                             </a>
                           </p>
                           <p className='footer-widget__about-text'>
                             <a href='mailto:info@krishisquare.com'>
-                              <i className='fa fa-envelope'></i>info@krishisquare.com
+                              <i className='fa fa-envelope'></i> info@krishisquare.com
                             </a>
                           </p>
                           <p className='footer-widget__about-text'>
-                            <i className='fas fa-map-marker-alt'></i>144 Senapati Bapat Road, Matunga West Mumbai - 400 016
+                            <i className='fas fa-map-marker-alt'></i> 144 Senapati Bapat Road, Matunga West Mumbai - 400 016
                           </p>
                         </div>
                      
@@ -95,7 +95,7 @@ const Footer = ({ user, setUser }) => {
                             <a href='products'>Marketplace</a>
                           </li>
                           <li className='footer-widget__explore-list-item'>
-                            <a href='#'>Escrow</a>
+                            <a href='escrow'>Escrow</a>
                           </li>
                           <li className='footer-widget__explore-list-item'>
                             <a href='insights'>Insights</a>
