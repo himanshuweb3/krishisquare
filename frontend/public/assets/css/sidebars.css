@@ -87,3 +87,6 @@ main {
 
 .fw-semibold { font-weight: 600; }
 .lh-tight { line-height: 1.25; }
+
+.adminside { width: 280px, background-color: #f5f6fa, border-right-color: #e5e9f2 ; }
+table td img { max-width:80px; }
