@@ -135,7 +135,7 @@ const Admin = ({ user, setUser }) => {
       </div>
       <div
         style={{ width: "80%" }}
-        className='d-flex align-items-center flex-column justify-content-center'
+        className='d-flex align-items-center flex-column '
       >
           <img className='admlogo' src="assets/images/resources/logo-1.png" /><br />
         {component === "products" && <ViewProducts />}
