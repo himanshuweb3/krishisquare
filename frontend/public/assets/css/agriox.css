@@ -283,6 +283,9 @@ button {
 .contact-page__right {
     padding-left: 30px;
 }
+
+.notreg { background: skyblue; padding: 7px 5px; }
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -4563,6 +4566,7 @@ button {
 =============================================
 ***/
 .footer-one {
+	margin-top: 50px;
   position: relative;
   display: block;
   z-index: 1;
