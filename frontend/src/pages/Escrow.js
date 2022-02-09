@@ -74,33 +74,33 @@ const Escrow = () => {
       </section>
       {/*About Three End*/}
      
-<div classNameName='container howitworks '>
-          <div classNameName='text-center clearfix'>
+<div className='container howitworks '>
+          <div className='text-center clearfix'>
             <h2>How Escrow Works</h2>
           </div>
 
 
-<div classNameName="row justify-content-center">
+<div className="row justify-content-center">
   
-  <div classNameName="col-xl-4 col-md-6 col-12">
-    <div classNameName="lab-item">
-      <div classNameName="lab-inner">
-        <div classNameName="lab-thumb"><img src="assets\images\service\01.png" alt="lab-thumb" /></div>
-<div classNameName="lab-content"><button className="lab-btn btn-sm text-white">Step 1</button><br /><br /><a href="/escrow">
+  <div className="col-xl-4 col-md-6 col-12">
+    <div className="lab-item">
+      <div className="lab-inner">
+        <div className="lab-thumb"><img src="assets\images\service\01.png" alt="lab-thumb" /></div>
+<div className="lab-content"><button className="lab-btn btn-sm text-white">Step 1</button><br /><br /><a href="/escrow">
 <h5>Send Agreement</h5></a><br /><p>Provide transaction details and send an agreement with terms and conditions to buyer and seller</p>
 </div></div></div></div>
   
-  <div classNameName="col-xl-4 col-md-6 col-12">
-    <div classNameName="lab-item">
-      <div classNameName="lab-inner">
-        <div classNameName="lab-thumb"><img src="assets\images\service\02.png" alt="lab-thumb" /></div>
-<div classNameName="lab-content"><button className="lab-btn btn-sm text-white">Step 2</button><br /><br /><a href="/escrow">
+  <div className="col-xl-4 col-md-6 col-12">
+    <div className="lab-item">
+      <div className="lab-inner">
+        <div className="lab-thumb"><img src="assets\images\service\02.png" alt="lab-thumb" /></div>
+<div className="lab-content"><button className="lab-btn btn-sm text-white">Step 2</button><br /><br /><a href="/escrow">
 <h5>Accept Terms and Conditions</h5></a><br /><p>Buyer and seller to agree on terms and conditions on product quantity, price, quality, shipping information and payment release condition</p>
 </div></div></div></div>
   
-  <div classNameName="col-xl-4 col-md-6 col-12"><div classNameName="lab-item"><div classNameName="lab-inner">
-    <div classNameName="lab-thumb"><img src="assets\images\service\03.png" alt="lab-thumb" /></div>
-<div classNameName="lab-content"><button classNameName="lab-btn btn-sm text-white">Step 3</button><br /><br /><a href="/escrow">
+  <div className="col-xl-4 col-md-6 col-12"><div className="lab-item"><div className="lab-inner">
+    <div className="lab-thumb"><img src="assets\images\service\03.png" alt="lab-thumb" /></div>
+<div className="lab-content"><button className="lab-btn btn-sm text-white">Step 3</button><br /><br /><a href="/escrow">
       <h5>Transfer Payment to Escrow</h5></a><br /><p>Buyer to transfer the invoice amount to escrow account, where funds will be parked until the order is fulfilled</p>
 </div></div></div></div>
 
@@ -109,7 +109,7 @@ const Escrow = () => {
 <div className="lab-content"><button className="lab-btn btn-sm text-white">Step 4</button><br /><br /><a href="/escrow"><h5>Provide Document Proof</h5></a><br /><p>Seller to provide proof of shipment for goods Inspection period</p>
 </div></div></div></div>
   
-  <div className="col-xl-4 col-md-6 col-12"><div classNameName="lab-item"><div className="lab-inner">
+  <div className="col-xl-4 col-md-6 col-12"><div className="lab-item"><div className="lab-inner">
     <div className="lab-thumb"><img src="assets\images\service\05.png" alt="lab-thumb" /></div>
 <div className="lab-content"><button className="lab-btn btn-sm text-white">Step 5</button><br /><br /><a href="/escrow"><h5>Inspection Period</h5></a><br /><p>On receipt of goods, buyer gets a inspection period during which they give a go ahead if the quality is fine else sent back to seller</p>
 </div></div></div></div>
