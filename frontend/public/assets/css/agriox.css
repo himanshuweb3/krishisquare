@@ -760,7 +760,7 @@ button {
   position: relative;
   display: inline-block;
   color: #000;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   text-transform: none;
       font-family: "Roboto",sans-serif;
@@ -6698,7 +6698,7 @@ button {
   position: relative;
   display: block;
   background: #ffffff;
-  padding: 120px 0px 120px;
+  padding: 70px 0px 120px;
   background-image: url(../images/backgrounds/about-3-bg-1-1.png);
   background-repeat: no-repeat;
   background-position: left bottom;
