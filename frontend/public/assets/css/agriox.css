@@ -279,6 +279,10 @@ button {
     margin-bottom: 0;line-height: 1.5;
     color: #333;
 }
+
+.contact-page__right {
+    padding-left: 30px;
+}
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -381,12 +385,12 @@ button {
   -webkit-appearance: none;
   border: none;
   outline: none !important;
-  background-color: var(--agriox-base, #f1cf69);
-  color: var(--agriox-primary, #334b35);
+  background-color:#FEB500;
+  color: #000;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 18px 50px 18px;
+  padding: 12px 50px 12px;
   border-radius: 10px;
   letter-spacing: 0.1em;
   -webkit-transition: all 0.3s linear;
@@ -3311,7 +3315,7 @@ button {
 .services-one__single-content {
   position: relative;
   display: block;
-  padding: 13px 40px 40px;
+  padding: 13px 35px 35px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   z-index: 1;
@@ -4568,7 +4572,7 @@ button {
   position: relative;
   display: block;
   background: #feb500;
-  padding: 135px 0px 110px;
+  padding: 100px 0px 100px;
 }
 
 .footer-one__top-wrapper {
@@ -4910,7 +4914,7 @@ button {
 
 .footer-one__bottom-text {
   position: relative;
-  display: block;
+  display: block; margin:auto;
 }
 
 .footer-one__bottom-text p {
