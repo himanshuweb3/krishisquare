@@ -35,7 +35,7 @@ const Escrow = () => {
           <div className='row'>
             {/*Start About Three Content Box*/}
             <div className='col-xl-12 col-lg-12'>
-              <div className='about-three__content-box'>
+              <div className='about-three__content-box escrow'>
               
                 <h3>Protect your payments with a fully digital escrow </h3>
 <p>Buyer's money is securely held and released to the seller post quality check:</p>
@@ -53,6 +53,17 @@ const Escrow = () => {
 <tr><td><img src="https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png" />Fully verify seller's identity</td></tr>
 <tr><td><img src="https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png" />Get your money back if the goods fail the inspection</td></tr>
 </table>
+
+<h4><img src="https://escrowindia.globalgroominghealthcare.com/assets/seller.jpg" />Seller</h4>
+<table>
+<tr><td><img src="https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png" /> Get paid on time and in full orders</td></tr>
+<tr><td><img src="https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png" /> No need to ship goods until payment is ensued</td></tr>
+<tr><td><img src="https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png" />Sell more by building trust with buyers</td></tr>
+<tr><td><img src="https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png" /> Secure full payment amount in an escrow before you ship</td></tr>
+<tr><td><img src="https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png" />Build your reputation as a reliable seller</td></tr>
+<tr><td><img src="https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png" />Work with verified buyers, eliminating post shipment hassles</td></tr>
+</table>
+
               </div>
             </div>
             {/*End About Three Content Box*/}
