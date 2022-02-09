@@ -184,6 +184,7 @@ button {
     padding: 50px 0px;
 }
 .contactdet .icon {
+	float:left;
     position: relative;
     display: inline-block;
     width: 50px;
@@ -200,7 +201,7 @@ button {
 .contactdet .title {
     position: relative;
     display: block;
-    padding-left: 20px;
+    padding-left: 60px;
 }
 .contactdet .icon span::before {
     position: relative;
