@@ -218,6 +218,14 @@ button {
     transition: all .3s ease;
 }
 
+.escrow h4 img {
+    max-width: 70px;
+    margin-right: 10px;
+}
+.escrow table td img {
+    max-width: 20px;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
