@@ -30,7 +30,7 @@ const Header = ({ user, setUser }) => {
             <div className='auto-container'>
               <div className='main-header--one__bottom-inner'>
                 <div className='logo'>
-                  <Link to='/home'>
+                  <Link to='/'>
                     <img
                       className='dark-logo'
                       src='assets/images/resources/logo-1.png'
@@ -70,7 +70,7 @@ const Header = ({ user, setUser }) => {
                     <div className='main-header--one__bottom-left'>
                       <ul className='main-menu__list'>
                         <li className='dropdown megamenu'>
-                          <Link to='/home'>Home</Link>
+                          <Link to='/'>Home</Link>
                         </li>
                         <li>
                           <Link to='/about'>About</Link>
