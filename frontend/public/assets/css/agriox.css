@@ -245,9 +245,9 @@ button {
     transition: all .3s ease;
 }
 .lab-item .lab-inner .lab-thumb {
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
+    -webkit-border-radius: 100%!important;
+    -moz-border-radius: 100%!important;
+    border-radius: 100%!important;
 }
 .lab-item .lab-inner .lab-thumb {
     width: 80px;
