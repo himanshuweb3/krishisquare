@@ -125,7 +125,7 @@ const Escrow = () => {
 </div></div></div></div>
   
  </div>
-
+</div>
       
   );
 };
