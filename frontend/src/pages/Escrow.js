@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Escrow = () => {
   return (
@@ -127,7 +128,7 @@ const Escrow = () => {
   
  </div>
 </div>
-</div>
+</>
       
   );
 };
