@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Escrow from "./pages/Escrow";
 import Admin from "./pages/Admin";
 import Header from "./component/Layout/Header";
 import Footer from "./component/Layout/Footer";
@@ -64,6 +65,9 @@ function App() {
         </Route>
         <Route exact path='/contact'>
           <Contact />
+        </Route>
+        <Route exact path='/escrow'>
+          <Escrow />
         </Route>
         <Route exact path='/insights'>
           <Insights />
