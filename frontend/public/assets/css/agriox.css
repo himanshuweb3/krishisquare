@@ -168,6 +168,10 @@ button {
     background-color: #157347;
     border-color: #157347;
 }
+.card-img-top {
+    width: auto;
+    max-height: 200px;
+}
 .card-footer {
     padding: 0.5rem 1rem;
     background-color: #fff;
