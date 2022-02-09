@@ -19,7 +19,7 @@ const Insights = () => {
       </section>
       {/* Page Header End*/}
 
-       <div className='container' style={{padding:100px 0px}}>
+       <div className='container' style={{ padding:'100px 0px' }}>
           <div className='row'>
             <div className='col-xl-12 col-lg-12 text-center'>
               <h2>Coming Soon</h2>
