@@ -230,8 +230,8 @@ button {
 
 .lab-btn { cursor: pointer;
     display: inline-block;
-    padding: 13px 49px;
-	background: #ffb11f; }
+    padding: 7px 49px;
+	background: #ffb11f;     border: 2px solid #000;}
 .text-white {
     color: #fff!important;
 }
