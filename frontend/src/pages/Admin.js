@@ -30,7 +30,7 @@ const Admin = ({ user, setUser }) => {
   return (
     <div
       id='admin-container'
-      style={{ minHeight: "80vh" }}
+      style={{ minHeight: "50vh" }}
       className='d-flex flex-wrap'
     >
       <div className='flex-shrink-0 p-3 adminside' >
@@ -134,7 +134,7 @@ const Admin = ({ user, setUser }) => {
       </div>
       <div
         style={{ width: "80%" }}
-        className='d-flex align-items-center flex-column mt-4 justify-content-center'
+        className='d-flex align-items-center flex-column justify-content-center'
       >
         {component === "products" && <ViewProducts />}
         {component === "create" && <CreateProduct />}
