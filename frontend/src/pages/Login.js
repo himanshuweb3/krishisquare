@@ -55,7 +55,7 @@ const Login = ({ setUser }) => {
             className='comment-one__form contact-form-validated'
           >
             <div className='row'>
-              <div className='col-xl-12 col-lg-12'>
+              <div className='col-xl-8 col-lg-12'>
                 <div className='comment-form__input-box'>
                   <input
                     onChange={(e) => setEmail(e.target.value)}
@@ -68,7 +68,7 @@ const Login = ({ setUser }) => {
             </div>
 
             <div className='row'>
-              <div className='col-xl-12 col-lg-12'>
+              <div className='col-xl-8 col-lg-12'>
                 <div className='comment-form__input-box'>
                   <input
                     onChange={(e) => setPassword(e.target.value)}
@@ -81,7 +81,7 @@ const Login = ({ setUser }) => {
             </div>
 
             <div className='row'>
-              <div className='col-xl-12 col-lg-12'>
+              <div className='col-xl-8 col-lg-12'>
                 <button
                   type='submit'
                   className='thm-btn comment-form__btn mb-5'
@@ -91,6 +91,7 @@ const Login = ({ setUser }) => {
               </div>
             </div>
           </form>
+<div className='notreg'>Not Registered <a href="signup">click here</a> for *Registration*</div>
         </div>
       </div>
     </div>
