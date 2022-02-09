@@ -9,11 +9,11 @@ const Insights = () => {
         style={{
           backgroundImage: "url(https://escrowindia.globalgroominghealthcare.com/assets/images/about/03.png)",
         }}
-        >
-   
+      >
         <div className='container'>
           <div className='page-header__inner text-center clearfix'>
-            <h2>Insights</h2>
+            
+            <h2>About Us</h2>
           </div>
         </div>
       </section>
@@ -26,6 +26,7 @@ const Insights = () => {
            </div>
          </div>
        </div>
+ </>
 
   );
 };
