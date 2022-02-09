@@ -33,7 +33,7 @@ const Admin = ({ user, setUser }) => {
       style={{ minHeight: "80vh" }}
       className='d-flex flex-wrap'
     >
-      <div className='flex-shrink-0 p-3' style={{ width: '280px', background-color: '#f5f6fa', border-right-color: '#e5e9f2' }}>
+      <div className='flex-shrink-0 p-3' style={{ width: '280px', background-color: '#f5f6fa', border-right-color: '#e5e9f2', }}>
         <a
           href='/'
           className='d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom'
