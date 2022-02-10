@@ -9,14 +9,7 @@ const Home = ({ user }) => {
     setLoggedUser(user);
   }, [user]);
 
-  useEffect(() => {
-    if (location.pathname === "/home") {
-      document.querySelector(".main-slider-tagline").style.opacity = 1;
-      document.querySelector(".main-slider__title").style.opacity = 1;
-      document.querySelector(".main-slider__text").style.opacity = 1;
-      document.querySelector(".main-slider__button-box").style.opacity = 1;
-    }
-  }, [location]);
+ 
 
   return (
     <>
