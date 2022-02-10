@@ -79,20 +79,20 @@ const ViewProducts = () => {
         <table className='table table-bordered shadow ml-3'>
           <thead className='table-dark'>
             <tr>
-              <th scope='col'>Product ID</th>
-              <th scope='col'>Product Image</th>
               <th scope='col'>Product Name</th>
+              <th scope='col'>Product Image</th>
+              
               <th scope='col'>Actions</th>
             </tr>
           </thead>
           <tbody>
             {products.map((product, i) => (
               <tr data-id={product._id} key={product._id}>
-                <th scope='row'>{product._id}</th>
+                <th scope='row'>{product.name}</th>
                 <td>
                   <img src={`${product.photo.url}`} alt='' />{" "}
                 </td>
-                <td>{product.name}</td>
+                
                 <td>
                   {" "}
                   <button
@@ -154,7 +154,7 @@ const ViewProducts = () => {
                     className='nav-link text-info'
                     onClick={() => setProdToDelete(product._id)}
                   >
-                    Update
+                    Edit
                   </button>
                   <div
                     className='modal fade'
