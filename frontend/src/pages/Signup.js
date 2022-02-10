@@ -62,7 +62,7 @@ const Signup = ({ setUser }) => {
       className='container d-flex flex-column align-items-center justify-content-center'
     >
       <h1 className='heading-primary mb-4'>Sign Up</h1>
-      <div className='col-xl-8 col-lg-8  w-75'>
+      <div className='col-xl-6 col-lg-6  w-75'>
         <div className='contact-page__right'>
           <form
             onSubmit={signUpSubmit}
