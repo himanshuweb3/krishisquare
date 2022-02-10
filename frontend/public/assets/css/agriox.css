@@ -293,7 +293,7 @@ button {
 .comment-form__input-box input[type="text"], .comment-form__input-box input[type="email"], .comment-form__input-box input[type="password"], .comment-form__input-box input[type="number"] {
     height: 40px!important;
     width: 100%!important;
-    border: 1px solid #ddd;border-radius: 0!important;
+    border: 1px solid #ddd!important;border-radius: 0!important;
     background: #fff!important;
 }
 
