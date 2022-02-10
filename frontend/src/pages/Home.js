@@ -34,18 +34,7 @@ const Home = ({ user }) => {
         <section className='main-slider main-slider-one'>
           <div
             className='swiper-container thm-swiper__slider'
-            data-swiper-options='{"slidesPerView": 1, "loop": true, "effect": "fade", "pagination": {
-            "el": "#main-slider-pagination",
-            "type": "bullets",
-            "clickable": true
-            },
-            "navigation": {
-            "nextEl": "#main-slider__swiper-button-next",
-            "prevEl": "#main-slider__swiper-button-prev"
-            },
-            "autoplay": {
-            "delay": 7000
-            }}'
+           
           >
             <div className='swiper-wrapper'>
               {/*Start Single Swiper Slide*/}
