@@ -5,6 +5,10 @@ import { useAlert } from "react-alert";
 const ViewProducts = () => {
   const [products, setProducts] = useState();
   const [prodToDelete, setProdToDelete] = useState();
+
+  const [name, setName] = useState();
+  const [avatar, setAvatar] = useState("");
+
   const alert = useAlert();
 
   useEffect(() => {
@@ -35,6 +39,30 @@ const ViewProducts = () => {
         },
       });
       alert.success("Product Deleted");
+    } catch (error) {
+      console.log(error);
+      alert.error(error);
+    }
+  };
+
+  const updateProduct = async () => {
+    document.querySelector(".close.update").click();
+    try {
+      const config = { headers: { "Content-Type": "multipart/form-data" } };
+      const myForm = new FormData();
+
+      if (avatar) {
+        myForm.set("photo", avatar);
+      }
+      if (name) {
+        myForm.set("name", name);
+      }
+      await axios.post(
+        `/api/v1/products/update/${prodToDelete}`,
+        myForm,
+        config
+      );
+      alert.success("Product Updated");
     } catch (error) {
       console.log(error);
       alert.error(error);
@@ -115,6 +143,86 @@ const ViewProducts = () => {
                             className='btn btn-primary'
                           >
                             Delete
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    data-bs-toggle='modal'
+                    data-bs-target='#updateModal'
+                    className='nav-link text-info'
+                    onClick={() => setProdToDelete(product._id)}
+                  >
+                    Update
+                  </button>
+                  <div
+                    className='modal fade'
+                    id='updateModal'
+                    tabindex='-1'
+                    role='dialog'
+                    aria-labelledby='exampleModalLabel'
+                    aria-hidden='true'
+                  >
+                    <div className='modal-dialog' role='document'>
+                      <div className='modal-content'>
+                        <div className='modal-header'>
+                          <h5 className='modal-title' id='exampleModalLabel'>
+                            Update product
+                          </h5>
+                          <button
+                            type='button'
+                            className='close update'
+                            data-bs-dismiss='modal'
+                            aria-label='Close'
+                          >
+                            <span aria-hidden='true'>&times;</span>
+                          </button>
+                        </div>
+                        <div className='modal-body'>
+                          <form>
+                            <div className='form-group mb-3'>
+                              <label htmlFor='exampleInputEmail1'>
+                                Product Name
+                              </label>
+                              <input
+                                type='text'
+                                className='form-control'
+                                onChange={(e) => setName(e.target.value)}
+                                id='product-name'
+                                aria-describedby='emailHelp'
+                                placeholder='Enter Product Name'
+                              />
+                            </div>
+                            <div className='form-group mb-4'>
+                              <label htmlFor='exampleFormControlFile1'>
+                                Choose Product Image
+                              </label>
+                              <input
+                                style={{ display: "block" }}
+                                type='file'
+                                className='form-control-file'
+                                id='exampleFormControlFile1'
+                                accept='image/*'
+                                onChange={(e) => setAvatar(e.target.files[0])}
+                              />
+                            </div>
+                          </form>
+                        </div>
+                        <div className='modal-footer'>
+                          <button
+                            type='button'
+                            className='btn btn-secondary'
+                            data-bs-dismiss='modal'
+                          >
+                            Close
+                          </button>
+                          <button
+                            onClick={() => updateProduct()}
+                            type='button'
+                            className='btn btn-primary'
+                          >
+                            Update
                           </button>
                         </div>
                       </div>
