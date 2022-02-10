@@ -69,7 +69,7 @@ exports.updateProduct = catchAsync(async (req, res, next) => {
     obj.name = req.body.name;
   }
 
-  if (req.files.photo) {
+  if (req.files) {
     const myCloud = await cloudinary.v2.uploader.upload(
       req.files.photo.tempFilePath,
       {
