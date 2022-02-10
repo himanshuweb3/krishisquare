@@ -33,7 +33,7 @@ const Admin = ({ user, setUser }) => {
       style={{ minHeight: "50vh" }}
       className='d-flex flex-wrap'
     >
-      <div className='flex-shrink-0 p-3 adminside' >
+      <div className='flex-shrink-0 p-3 adminside'>
         <a
           href='/'
           className='d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom'
@@ -41,8 +41,8 @@ const Admin = ({ user, setUser }) => {
           {/* <svg className='bi me-2' width='30' height='24'>
             <use xlink:href='#bootstrap' />
           </svg> */}
-          
-          <h3 className='fw-semibold' > Welcome Admin </h3>
+
+          <h3 className='fw-semibold'> Welcome Admin </h3>
         </a>
         <ul className='list-unstyled ps-0'>
           <li className='mb-1'>
@@ -66,11 +66,11 @@ const Admin = ({ user, setUser }) => {
                     Create
                   </a>
                 </li>
-                <li onClick={() => setComponent("update")}>
+                {/* <li onClick={() => setComponent("update")}>
                   <a href='#' className='link-dark rounded'>
                     Update
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </li>
@@ -137,10 +137,10 @@ const Admin = ({ user, setUser }) => {
         style={{ width: "80%" }}
         className='d-flex align-items-center flex-column '
       >
-          <img className='admlogo' src="assets/images/resources/logo-1.png" /><br />
+        <img className='admlogo' src='assets/images/resources/logo-1.png' />
+        <br />
         {component === "products" && <ViewProducts />}
         {component === "create" && <CreateProduct />}
-        {component === "update" && <UpdateProduct />}
         {component === "users" && <ViewUsers />}
         {component === "queries" && <Queries />}
       </div>
