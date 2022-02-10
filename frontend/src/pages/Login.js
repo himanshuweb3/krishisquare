@@ -38,7 +38,7 @@ const Login = ({ setUser }) => {
     }
     if (loggedIn) {
       alert.success("Logged In");
-      history.push("/home");
+      history.push("/");
     }
   }, [alert, error, loggedIn, history]);
 
