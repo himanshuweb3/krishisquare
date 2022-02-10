@@ -37,13 +37,13 @@ const Escrow = () => {
             <div className='col-xl-12 col-lg-12'>
               <div className='about-three__content-box escrow'>
               
-                <h3>Protect your payments with a fully digital escrow </h3>
+                <h3>Protect your payments with a fully digital escrow </h3><br />
 <p>Buyer's money is securely held and released to the seller post quality check:</p>
 
 <p><img src="https://escrowindia.globalgroominghealthcare.com/assets/escrow1.png" /> Got a great deal from a new buyer, but don't trust him with payments ?</p>
 
  <p><img src="https://escrowindia.globalgroominghealthcare.com/assets/escrow2.png" /> Found a good supplier at right price, but don't trust with the quality ?</p>
-
+<br />
 <h4><img src="https://escrowindia.globalgroominghealthcare.com/assets/buyer.jpg" />Buyer</h4>
 <table>
 <tr><td><img src="https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png" /> Protect your transactions against delays and cancellations</td></tr>
@@ -53,7 +53,7 @@ const Escrow = () => {
 <tr><td><img src="https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png" /> Fully verify seller's identity</td></tr>
 <tr><td><img src="https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png" /> Get your money back if the goods fail the inspection</td></tr>
 </table>
-
+<br />
 <h4><img src="https://escrowindia.globalgroominghealthcare.com/assets/seller.jpg" />Seller</h4>
 <table>
 <tr><td><img src="https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png" /> Get paid on time and in full orders</td></tr>
