@@ -3177,8 +3177,10 @@ button {
   position: relative;
   display: block;
   margin-bottom: 30px;
+  /*
   -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
+  */
   border-radius: 10px;
   overflow: hidden;
   border: 1px solid transparent;
@@ -3191,11 +3193,12 @@ button {
 .services-one__single-img {
   position: relative;
   display: block;
-  padding-bottom: 55px;
+  padding-bottom: 0px;
   background: #ffffff;
   z-index: 1;
 }
 
+/*
 .services-one__single-img::before {
   position: absolute;
   bottom: 50px;
@@ -3216,6 +3219,7 @@ button {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+*/
 
 .services-one__single-img-inner {
   position: relative;
@@ -3223,7 +3227,7 @@ button {
   overflow: hidden;
   z-index: 1;
 }
-
+/*
 .services-one__single-img-inner::before {
   position: absolute;
   top: 0;
@@ -3245,6 +3249,7 @@ button {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+*/
 
 .services-one__single-img-inner img {
   width: 100%;
@@ -3322,7 +3327,7 @@ button {
 .services-one__single-content {
   position: relative;
   display: block;
-  padding: 13px 35px 35px;
+  padding: 13px 5px 5px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   z-index: 1;
