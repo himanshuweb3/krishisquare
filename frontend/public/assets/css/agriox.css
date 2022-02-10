@@ -3183,7 +3183,7 @@ button {
   */
   border-radius: 10px;
   overflow: hidden;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
 }
 
 .services-one__single:hover {
