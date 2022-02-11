@@ -10,13 +10,11 @@ const ProductCard = ({ img, text, user }) => {
 
   const showModal = (e) => {
     e.preventDefault();
-    if (!loggedUser) {
-      history.push("/login");
-    } else {
+    
       btn.current.setAttribute("data-bs-toggle", "modal");
       btn.current.setAttribute("data-bs-target", "#exampleModalCenter");
       btn.current.click();
-    }
+    
   };
 
   const [loggedUser, setLoggedUser] = useState();
