@@ -45,6 +45,13 @@ const Admin = ({ user, setUser }) => {
           <h3 className='fw-semibold'> Welcome Admin </h3>
         </a>
         <ul className='list-unstyled ps-0'>
+          
+          <li onClick={() => setComponent("dashboard")}>
+                  <a href='#' className='link-dark rounded'>
+                    Dashboard
+                  </a>
+                </li>
+
           <li className='mb-1'>
             <button
               className='btn btn-toggle align-items-center rounded collapsed'
@@ -56,11 +63,7 @@ const Admin = ({ user, setUser }) => {
             </button>
             <div className='collapse show' id='home-collapse'>
               <ul className='btn-toggle-nav list-unstyled fw-normal pb-1 small'>
-                <li onClick={() => setComponent("dashboard")}>
-                  <a href='#' className='link-dark rounded'>
-                    Dashboard
-                  </a>
-                </li>
+                
                 <li onClick={() => setComponent("products")}>
                   <a href='#' className='link-dark rounded'>
                     View
