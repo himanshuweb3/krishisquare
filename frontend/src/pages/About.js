@@ -103,13 +103,13 @@ const About = () => {
       {/*About Three End*/}
      
 <div className='container our-story '>
-          <div className='text-center clearfix'>
+          <div className='clearfix'>
             
             <h2>Our Story</h2>
           </div>
 <img src="https://escrowindia.globalgroominghealthcare.com/assets/images/about/03.png" />
   <p>Krishi Square is B2B agri tech platform to enable discovery and trust in trade for small and medium size businesses(SMBs) and Corporates.
-<br />
+<br /><br />
 We believe the world will look very different after this pandemic, as it did after the second world war and the financial crisis of 2008. We foresee a gigantic acceleration towards digitalization in the B2B space. B2B digitization has lagged behind its B2C peers due to an inability to solve for trust deficit which currently exists in SMB and Corporate market. Technology will acts as an enabler and will play a vital role to achieve a humongous scale in $300B agri industry.
 
 </p>
@@ -121,8 +121,8 @@ We believe the world will look very different after this pandemic, as it did aft
           <div className='text-center clearfix'>
            <h2>Our Founders</h2>
           </div>
-<div className='col-xl-6 col-lg-5'><h5>Vikas Kabra</h5><h6>Co-Founder</h6></div>
-<div className='col-xl-6 col-lg-5'><h5>Divyanshu Tripathi</h5><h6>Co-Founder</h6></div>
+<div className='col-xl-6 col-lg-5'><img src="assets/images/founderimg.png" /><h5>Vikas Kabra</h5><h6>Co-Founder</h6></div>
+<div className='col-xl-6 col-lg-5'><img src="assets/images/founderimg.png" /><h5>Divyanshu Tripathi</h5><h6>Co-Founder</h6></div>
 </div>
 </div>
       
