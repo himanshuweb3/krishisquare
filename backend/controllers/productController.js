@@ -2,6 +2,7 @@ const multer = require("multer");
 const catchAsync = require("../middlewares/catchAsync");
 const Product = require("../models/productModel");
 const Query = require("../models/queryModel");
+const User = require("../models/userModel");
 const AppError = require("../utils/AppError");
 const cloudinary = require("cloudinary");
 
@@ -137,5 +138,22 @@ exports.deleteQuery = catchAsync(async (req, res, next) => {
   res.status(204).json({
     status: "success",
     data: null,
+  });
+});
+
+exports.dashboardStats = catchAsync(async (req, res, next) => {
+  const products = await Product.find();
+  const users = await User.find();
+  const queries = await Query.find();
+
+  const productsCount = products.length;
+  const usersCount = users.length;
+  const queriesCount = queries.length;
+
+  res.status(200).json({
+    status: "success",
+    productsCount,
+    usersCount,
+    queriesCount,
   });
 });
