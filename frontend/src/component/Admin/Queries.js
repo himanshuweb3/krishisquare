@@ -63,8 +63,9 @@ const Queries = () => {
             <tr>
               <th scope='col'>Product</th>
               <th scope='col'>Name</th>
+        <th scope='col'>Phone</th>
               <th scope='col'>Query</th>
-              <th scope='col'>Number</th>
+              
               <th scope='col'>Actions</th>
             </tr>
           </thead>
@@ -73,8 +74,9 @@ const Queries = () => {
               <tr data-id={query._id} key={query._id}>
                 <th scope='row'>{query.product}</th>
                 <td>{query.name}</td>
-                <td>{query.query}</td>
+                
                 <td>{query.number}</td>
+<td>{query.query}</td>
                 <td>
                   {" "}
                   <button
