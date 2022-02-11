@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 import ViewProducts from "../component/Admin/ViewProducts";
 import ViewUsers from "../component/Admin/ViewUsers";
 import CreateProduct from "../component/Admin/CreateProduct";
-import UpdateProduct from "../component/Admin/UpdateProduct";
+import Dashboard from "../component/Admin/Dashboard";
 import Queries from "../component/Admin/Queries.js";
 import axios from "axios";
 
@@ -26,7 +26,7 @@ const Admin = ({ user, setUser }) => {
     }
   };
 
-  const [component, setComponent] = useState("products");
+  const [component, setComponent] = useState("dashboard");
   return (
     <div
       id='admin-container'
@@ -56,6 +56,11 @@ const Admin = ({ user, setUser }) => {
             </button>
             <div className='collapse show' id='home-collapse'>
               <ul className='btn-toggle-nav list-unstyled fw-normal pb-1 small'>
+                <li onClick={() => setComponent("dashboard")}>
+                  <a href='#' className='link-dark rounded'>
+                    Dashboard
+                  </a>
+                </li>
                 <li onClick={() => setComponent("products")}>
                   <a href='#' className='link-dark rounded'>
                     View
@@ -139,6 +144,7 @@ const Admin = ({ user, setUser }) => {
       >
         <img className='admlogo' src='assets/images/resources/logo-1.png' />
         <br />
+        {component === "dashboard" && <Dashboard setComponent={setComponent} />}
         {component === "products" && <ViewProducts />}
         {component === "create" && <CreateProduct />}
         {component === "users" && <ViewUsers />}
