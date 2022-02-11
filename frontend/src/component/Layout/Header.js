@@ -75,9 +75,7 @@ const Header = ({ user, setUser }) => {
                         <li>
                           <Link to='/about'>About</Link>
                         </li>
-                        <li>
-                          <Link to='/escrow'>Escrow</Link>
-                        </li>
+                        
                         <li className='nav-item dropdown'>
                           <a
                             className='nav-link dropdown-toggle'
@@ -100,6 +98,9 @@ const Header = ({ user, setUser }) => {
                               Products
                             </Link>
                           </div>
+                        </li>
+<li>
+                          <Link to='/escrow'>Escrow</Link>
                         </li>
                         <li>
                           <Link to='/insights'>Insights</Link>
