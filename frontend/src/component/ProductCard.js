@@ -106,7 +106,22 @@ const ProductCard = ({ img, text, user }) => {
                       />
                     </div>
                   </div>
+                
                   <div className='form-group row mb-3'>
+                    <label htmlFor='mobile' className='col-sm-2 col-form-label'>
+                      Phone
+                    </label>
+                    <div className='col-sm-10'>
+                      <input
+                        type='number'
+                        className='form-control'
+                        id='mobile'
+                        placeholder='Your Mobile Number'
+                        onChange={(e) => setNumber(e.target.value)}
+                      />
+                    </div>
+                  </div>
+               <div className='form-group row mb-3'>
                     <label
                       htmlFor='inputPassword'
                       className='col-sm-2 col-form-label'
@@ -120,20 +135,6 @@ const ProductCard = ({ img, text, user }) => {
                         id='inputPassword'
                         placeholder='Your Query'
                         onChange={(e) => setQuery(e.target.value)}
-                      />
-                    </div>
-                  </div>
-                  <div className='form-group row mb-3'>
-                    <label htmlFor='mobile' className='col-sm-2 col-form-label'>
-                      Phone
-                    </label>
-                    <div className='col-sm-10'>
-                      <input
-                        type='number'
-                        className='form-control'
-                        id='mobile'
-                        placeholder='Your Mobile Number'
-                        onChange={(e) => setNumber(e.target.value)}
                       />
                     </div>
                   </div>
