@@ -46,7 +46,7 @@ const Admin = ({ user, setUser }) => {
         </a>
         <ul className='list-unstyled ps-0'>
           
-          <li onClick={() => setComponent("dashboard")}>
+          <li className='dashb' onClick={() => setComponent("dashboard")}>
                   <a href='#' className='link-dark rounded'>
                     Dashboard
                   </a>
