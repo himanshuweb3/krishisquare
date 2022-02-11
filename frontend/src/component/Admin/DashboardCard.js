@@ -2,7 +2,7 @@ import React from "react";
 
 const DashboardCard = ({ title, number, setComponent }) => {
   return (
-    <div className='mb-4 c-dashboardInfo col-lg-6'>
+    <div className='mb-4 c-dashboardInfo col-lg-4'>
       <div className='wrap'>
         <h4 className='heading heading5 hind-font medium-font-weight c-dashboardInfo__title'>
           {title}
