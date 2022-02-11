@@ -31,7 +31,7 @@ const Dashboard = ({ setComponent }) => {
   }, []);
 
   return (
-    <div className='container row d-flex flex-column align-items-center'>
+    <div className='container row d-flex flex-wrap align-items-center'>
       {loading ? (
         <div className='spinner-border' role='status'>
           <span className='sr-only'>Loading...</span>
