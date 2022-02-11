@@ -1,3 +1,5 @@
+.dash { padding-left:20px; }
+.dash a { color: orange;}
 .c-dashboardInfo {
   transition: 0.3s;
   margin-bottom: 15px;
