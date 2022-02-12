@@ -8,8 +8,11 @@ const router = express.Router();
 
 router.get("/", productController.getProducts);
 router.get("/queries", productController.getQueries);
+router.get("/escrow/queries", productController.getEscrowQueries);
 router.post("/query", productController.createQuery);
+router.post("/escrow/query", productController.escrowQuery);
 router.delete("/query/:id", productController.deleteQuery);
+router.delete("/escrow/query/:id", productController.deleteEscrowQuery);
 
 router.post("/", productController.addProduct);
 
