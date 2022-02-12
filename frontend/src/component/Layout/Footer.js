@@ -162,37 +162,48 @@ const Footer = ({ user, setUser }) => {
                   Home
                 </Link>
               </li>
-              <li className='dropdown'>
+              <li className=''>
                 <Link onClick={closeNav} to='/about'>
                   About
                 </Link>
               </li>
+             
               <li className='dropdown'>
+                <a href='#'>
+                  Marketplace
+                </a>
+               <ul>
+                   <li>
+                <a href ='/products'>
+                  Products
+                </a>
+              </li>
+                  <li>
+                    <a href='/signup'>
+                      Sign Up
+                    </a>
+                  </li>
+                  </ul>
+              </li>
+               <li>
+                <Link onClick={closeNav} to='/escrow'>
+                  Escrow
+                </Link>
+              </li>
+              <li>
+                <Link onClick={closeNav} to='/insights'>
+                  Insights
+                </Link>
+              </li>
+               <li >
                 <Link onClick={closeNav} to='/contact'>
                   Contact
                 </Link>
               </li>
-              <li className='dropdown'>
-                <Link onClick={closeNav} to='/'>
-                  Marketplace
-                </Link>
-               <ul>
-                   <li>
-                <Link onClick={closeNav} to='/products'>
-                  Products
-                </Link>
-              </li>
-                  <li>
-                    <Link onClick={closeNav} to='/signup'>
-                      Sign Up
-                    </Link>
-                  </li>
-                  </ul>
-              </li>
 
               {loggedUser ? (
                 <li className='dropdown'>
-                  <Link onClick={logout} to='/home'>
+                  <Link onClick={logout} to='/'>
                     Logout
                   </Link>
                 </li>
