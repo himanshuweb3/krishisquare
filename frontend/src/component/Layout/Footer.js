@@ -157,12 +157,12 @@ const Footer = ({ user, setUser }) => {
           {/* /.logo-box */}
           <div className='mobile-nav__container'>
             <ul className='main-menu__list'>
-              <li className='dropdown'>
+              <li>
                 <Link onClick={closeNav} to='/'>
                   Home
                 </Link>
               </li>
-              <li className=''>
+              <li>
                 <Link onClick={closeNav} to='/about'>
                   About
                 </Link>
@@ -209,12 +209,12 @@ const Footer = ({ user, setUser }) => {
                 </li>
               ) : (
                 <>
-                  <li className='dropdown'>
+                  <li>
                     <Link onClick={closeNav} to='/login'>
                       Login
                     </Link>
                   </li>
-                  <li className='dropdown'>
+                  <li>
                     <Link onClick={closeNav} to='/signup'>
                       Sign Up
                     </Link>
