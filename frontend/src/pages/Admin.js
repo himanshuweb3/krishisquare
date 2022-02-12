@@ -5,6 +5,7 @@ import ViewUsers from "../component/Admin/ViewUsers";
 import CreateProduct from "../component/Admin/CreateProduct";
 import Dashboard from "../component/Admin/Dashboard";
 import Queries from "../component/Admin/Queries.js";
+import EscrowQueries from "../component/Admin/EscrowQueries.js";
 import axios from "axios";
 
 const Admin = ({ user, setUser }) => {
@@ -45,12 +46,11 @@ const Admin = ({ user, setUser }) => {
           <h3 className='fw-semibold'> Welcome Admin </h3>
         </a>
         <ul className='list-unstyled ps-0'>
-          
           <li className='dashb' onClick={() => setComponent("dashboard")}>
-                  <a href='#' className='link-dark rounded'>
-                    Dashboard
-                  </a>
-                </li>
+            <a href='#' className='link-dark rounded'>
+              Dashboard
+            </a>
+          </li>
 
           <li className='mb-1'>
             <button
@@ -63,7 +63,6 @@ const Admin = ({ user, setUser }) => {
             </button>
             <div className='collapse show' id='home-collapse'>
               <ul className='btn-toggle-nav list-unstyled fw-normal pb-1 small'>
-                
                 <li onClick={() => setComponent("products")}>
                   <a href='#' className='link-dark rounded'>
                     View
@@ -117,6 +116,11 @@ const Admin = ({ user, setUser }) => {
                     View
                   </a>
                 </li>
+                <li onClick={() => setComponent("escrow")}>
+                  <a href='#' className='link-dark rounded'>
+                    Escrow Queries
+                  </a>
+                </li>
               </ul>
             </div>
           </li>
@@ -152,6 +156,7 @@ const Admin = ({ user, setUser }) => {
         {component === "create" && <CreateProduct />}
         {component === "users" && <ViewUsers />}
         {component === "queries" && <Queries />}
+        {component === "escrow" && <EscrowQueries />}
       </div>
     </div>
   );
