@@ -3,6 +3,7 @@ const catchAsync = require("../middlewares/catchAsync");
 const Product = require("../models/productModel");
 const Query = require("../models/queryModel");
 const User = require("../models/userModel");
+const Escrow = require("../models/escrowModel");
 const AppError = require("../utils/AppError");
 const cloudinary = require("cloudinary");
 
@@ -30,6 +31,27 @@ const cloudinary = require("cloudinary");
 // });
 
 // exports.uploadProductPhoto = upload.single("photo");
+
+exports.deleteEscrowQuery = catchAsync(async (req, res, next) => {
+  const query = await Escrow.findById(req.params.id);
+  if (!query) {
+    return next(new AppError("Query not found", 404));
+  }
+
+  await query.remove();
+  res.status(204).json({
+    status: "success",
+    data: null,
+  });
+});
+
+exports.getEscrowQueries = catchAsync(async (req, res, next) => {
+  const queries = await Escrow.find({});
+  if (queries.length < 1) {
+    return next(new AppError("No Queries Found", 404));
+  }
+  res.status(200).json({ status: "success", queries });
+});
 
 exports.addProduct = catchAsync(async (req, res, next) => {
   const name = req.body.name;
@@ -155,5 +177,15 @@ exports.dashboardStats = catchAsync(async (req, res, next) => {
     productsCount,
     usersCount,
     queriesCount,
+  });
+});
+
+exports.escrowQuery = catchAsync(async (req, res, next) => {
+  const { name, email, number } = req.body;
+  const query = await Escrow.create({ name, email, number });
+
+  res.status(200).json({
+    status: "success",
+    query,
   });
 });
