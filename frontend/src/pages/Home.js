@@ -185,26 +185,15 @@ B2B Agri Transaction
           
           <div className='container'>
             <div className='row'>
-              {/*Start About One Left*/}
-              <div className='col-xl-6'>
-                <div className='about-one__left'>
-                  <div className='about-one__left-img'>
-                    <div className='about-one__left-img-inner'>
-                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/history/02.jpg' alt='' />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/*End About One Left*/}
-
+            
               {/*Start About One Content*/}
-              <div className='col-xl-6'>
+              <div className='col-xl-12'>
                 <div className='about-one__content'>
                   <div className='sec-title'>                  
                     
                     <h2 className='sec-title__title'>About Krishi Square</h2>
                   </div>
-
+ <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/history/02.jpg' alt='' />
                  
                   <p className='about-one__content-text'>
                     Krishi Square has been conceptualised as a B2B agri tech
@@ -245,14 +234,9 @@ B2B Agri Transaction
                       />
                     </div>
                   </div>
-                  <div className='services-one__single-content text-center'>
+                  <div className='services-one__single-content'>
                    
-                    <h3>
-                      <a href='#'>
-                        Multi commodity
-                        <br />
-                        platform
-                      </a>
+                    <h3>Multi commodity platform
                     </h3>
                     <p>A one stop solution for all agri products</p>
                    
@@ -274,14 +258,9 @@ B2B Agri Transaction
                       />
                     </div>
                   </div>
-                  <div className='services-one__single-content text-center'>
+                  <div className='services-one__single-content'>
                    
-                    <h3>
-                      <a href='#'>
-                        Best <br />
-                        Pricing
-                      </a>
-                    </h3>
+                    <h3>Best Pricing   </h3>
                     <p>Sourcing excellence to negate price dynamics</p>
                  
                   </div>
@@ -302,14 +281,9 @@ B2B Agri Transaction
                       />
                     </div>
                   </div>
-                  <div className='services-one__single-content text-center'>
+                  <div className='services-one__single-content'>
                     
-                    <h3>
-                      <a href='#'>
-                        Protect <br />
-                        payment
-                      </a>
-                    </h3>
+                    <h3>Protect payment</h3>
                     <p>Protects both buyer and the seller in a transaction</p>
                     
                   </div>
