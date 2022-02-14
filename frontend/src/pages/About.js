@@ -13,7 +13,7 @@ const About = () => {
         <div className='container'>
           <div className='page-header__inner text-center clearfix'>
             
-            <h2>About Us</h2>
+            <h2>Our Story</h2>
           </div>
         </div>
       </section>
