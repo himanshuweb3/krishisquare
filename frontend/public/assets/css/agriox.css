@@ -168,6 +168,10 @@ button {
     background-color: #157347;
     border-color: #157347;
 }
+
+.form-check .form-check-input {
+	margin-right: 10px!important; }
+.contact-page__right a { text-decoration:underline; }
 .card-img-top {
     width: auto;
     max-height: 200px;
@@ -7356,7 +7360,7 @@ button {
   font-size: 14px;
   color: #727d73;
   font-weight: 400;
-  text-transform: capitalize;
+  text-transform: none;
   font-family: var(--agriox-font, "DM Sans", sans-serif);
 }
 
