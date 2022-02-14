@@ -30,7 +30,7 @@ const Contact = () => {
             
             <div className='row contactdet'>
               
-              <div className='col-xl-4 col-lg-4'>
+              <div className='col-xl-4 col-lg-4 item'>
               <div class="icon">
                   <span class="icon-map"></span>
               </div>
@@ -39,7 +39,7 @@ const Contact = () => {
               </div>
               </div>
               
-            <div className='col-xl-4 col-lg-4'>
+            <div className='col-xl-4 col-lg-4 item'>
                <div class="icon">
                   <span class="icon-phone-call-2"></span>
               </div>
@@ -48,7 +48,7 @@ const Contact = () => {
               </div>
               </div>
             
-            <div className='col-xl-4 col-lg-4'>
+            <div className='col-xl-4 col-lg-4 item'>
               <div class="icon">
                   <span class="icon-envelope"></span>
               </div>
