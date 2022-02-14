@@ -769,10 +769,10 @@ button {
 
 .main-menu .main-menu__list > li + li,
 .stricky-header .main-menu__list > li + li {
-  margin-left: 60px;
+  margin-left: 45px;
 }
 
-.main-menu .main-menu__list > li:last-child a { background-color:rgba(0,0,0,.5);    padding: 7px 10px; }
+.main-menu .main-menu__list > li:last-child a { background-color:rgba(0,0,0,.5);    padding: 5px 10px;     border-radius: 7px; }
 
 .main-menu .main-menu__list > li > a,
 .stricky-header .main-menu__list > li > a {
@@ -847,7 +847,7 @@ button {
 
 .main-menu .main-menu__list > li.dropdown a,
 .stricky-header .main-menu__list > li.dropdown a {
-  padding-right: 0px;
+  padding-right: 10px;
 }
 
 .main-menu .main-menu__list > li.current > a::before,
