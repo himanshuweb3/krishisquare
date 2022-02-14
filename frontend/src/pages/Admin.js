@@ -12,7 +12,7 @@ const Admin = ({ user, setUser }) => {
   const history = useHistory();
 
   useEffect(() => {
-    if (user && user.role !== "admin") {
+    if (!user || user.role !== "admin") {
       history.push("/home");
     }
   }, [user, history]);
