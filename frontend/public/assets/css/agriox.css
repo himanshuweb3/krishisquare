@@ -1299,7 +1299,7 @@ button {
 }
 
 .mobile-nav__content .main-menu__list ul {
-  display: none;
+  /*display: none;*/
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
