@@ -183,7 +183,7 @@ button {
 }
 .aboutintro img, .our-story img, .about-one__content img { text-align:center; width: 100%; max-height:250px; }
 
-.about-one__content {max-width: none!important; }
+.about-one__content {max-width: none!important; width: auto!important;}
 .sec-title {  margin-bottom: 25px!important; }
 .sec-title__title {  font-size: 36px!important; font-weight: 600!important; } 
 
