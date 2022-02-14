@@ -10105,6 +10105,7 @@ Sidebar
     max-width: 100%;
     margin: auto;
     display: block;
+    margin-bottom:20px;
 }
   .about-three__content-box {
     max-width: none;
