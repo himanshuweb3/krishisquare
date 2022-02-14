@@ -10101,6 +10101,11 @@ Sidebar
   .about-three__img-box {
     margin-top: 50px;
   }
+.about-three__img-box img {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
   .about-three__content-box {
     max-width: none;
   }
