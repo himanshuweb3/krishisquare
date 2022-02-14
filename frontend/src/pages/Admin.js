@@ -13,7 +13,7 @@ const Admin = ({ user, setUser }) => {
 
   useEffect(() => {
     if (user && user.role !== "admin") {
-      history.push("/");
+      history.push("/home");
     }
   }, [user, history]);
 
