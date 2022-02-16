@@ -53,7 +53,7 @@ const Dashboard = ({ setComponent }) => {
           />
           <DashboardCard
             setComponent={setComponent}
-            title={"Queries"}
+            title={"Product Queries"}
             number={queriesCount}
           />
                
