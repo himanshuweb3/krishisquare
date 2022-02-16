@@ -35,7 +35,7 @@ const Contact = () => {
                   <span class="icon-map"></span>
               </div>
               <div class="title">
-                  <p>Krishna Kunj, Senapati Bapat Marg, Mahalaxmi Sindhi Colony, Matunga West, Mumbai, Maharashtra 400016</p>
+                  <p>144, Senapati Bapat Marg, Mahalaxmi Sindhi Colony, Matunga West, Mumbai, Maharashtra 400016</p>
               </div>
               </div>
               
