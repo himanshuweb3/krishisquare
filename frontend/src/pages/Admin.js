@@ -113,7 +113,7 @@ const Admin = ({ user, setUser }) => {
               <ul className='btn-toggle-nav list-unstyled fw-normal pb-1 small'>
                 <li onClick={() => setComponent("queries")}>
                   <a href='#' className='link-dark rounded'>
-                    View
+                    Product Queries
                   </a>
                 </li>
                 <li onClick={() => setComponent("escrow")}>
