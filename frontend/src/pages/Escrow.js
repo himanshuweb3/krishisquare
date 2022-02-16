@@ -362,7 +362,7 @@ const Escrow = () => {
           <div className='modal-content'>
             <div className='modal-header'>
               <h5 className='modal-title' id='exampleModalLongTitle'>
-                Buy & Sell your commodity Get The Best Price!
+                Need KYC Documents - Bank Details, PAN Card, Aadhar Card
               </h5>
               <button
                 type='button'
