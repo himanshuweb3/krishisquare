@@ -9,6 +9,7 @@ const Dashboard = ({ setComponent }) => {
   const [productsCount, setProductsCount] = useState();
   const [usersCount, setUsersCount] = useState();
   const [queriesCount, setQueriesCount] = useState();
+  const [escrowsCount, setEscrowsCount] = useState();
   // const alert = useAlert();
 
   useEffect(() => {
@@ -21,6 +22,7 @@ const Dashboard = ({ setComponent }) => {
         setProductsCount(data.productsCount);
         setUsersCount(data.usersCount);
         setQueriesCount(data.queriesCount);
+        setEscrowsCount(data.escrowsCount);
         setLoading(false);
         // alert.success("Data Fetched!");
       } catch (error) {
@@ -53,6 +55,11 @@ const Dashboard = ({ setComponent }) => {
             setComponent={setComponent}
             title={"Queries"}
             number={queriesCount}
+          />
+               <DashboardCard
+            setComponent={setComponent}
+            title={"Escrow Queries"}
+            number={escrowsCount}
           />
         </>
       )}
