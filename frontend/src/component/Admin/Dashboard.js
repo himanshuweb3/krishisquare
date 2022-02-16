@@ -56,11 +56,7 @@ const Dashboard = ({ setComponent }) => {
             title={"Queries"}
             number={queriesCount}
           />
-               <DashboardCard
-            setComponent={setComponent}
-            title={"Escrow Queries"}
-            number={escrowsCount}
-          />
+               
         </>
       )}
     </div>
