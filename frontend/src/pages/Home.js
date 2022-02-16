@@ -260,7 +260,7 @@ B2B Agri Transaction
                   </div>
                   <div className='services-one__single-content'>
                    
-                    <h3>Best Pricing   </h3>
+                    <h3>Best pricing   </h3>
                     <p>Sourcing excellence to negate price dynamics</p>
                  
                   </div>
