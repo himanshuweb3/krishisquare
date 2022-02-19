@@ -104,10 +104,10 @@ const Footer = ({ user, setUser }) => {
                             <a href='contact'>Contact us</a>
                           </li>
 <li className='footer-widget__explore-list-item'>
-                            <a href='#'>Terms & Conditions</a>
+                            <a href='terms'>Terms & Conditions</a>
                           </li>
 <li className='footer-widget__explore-list-item'>
-                            <a href='#'>Privacy Policy</a>
+                            <a href='privacy'>Privacy Policy</a>
                           </li>
                         </ul>
                       </div>
