@@ -15,6 +15,7 @@ import { useLocation } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 import Products from "./pages/Products";
 import Insights from "./pages/Insights";
+import Terms from "./pages/Terms";
 
 function App() {
   const location = useLocation();
@@ -71,6 +72,9 @@ function App() {
         </Route>
         <Route exact path='/insights'>
           <Insights />
+        </Route>
+        <Route exact path='/terms'>
+          <Terms />
         </Route>
         <Route exact path='/products'>
           <Products user={user} />
