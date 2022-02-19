@@ -31,10 +31,10 @@ const Terms = () => {
 		<li>Krishi Square Private Limited (the &ldquo;Company&rdquo;) maintains the website (<a href="http://www.krishisquare.com/">www.krishisquare.com</a>), digital applications, and other media formats for use and promotion of the Company (collectively and individually, the&nbsp;<strong>&quot;Website&quot;</strong>) for providing buyers and sellers better prices, increased working capital and optimised logistics. Access and use of this Website by you are governed exclusively by these terms and conditions (&quot;Terms and Conditions&quot;).</li>
 		<li>The Terms and Conditions are between you and the Company. User understands and accepts that the Company maintains the website (defined hereinbelow) to provide visitors with information about the Company, its services (defined herein below) and products. You also accept that you are required to read the below mentioned Terms and Conditions, and any use of the Website constitutes your acceptance and agreement to be bound by such terms, and the changes made to this Terms and Conditions from time to time, relating to your usage of the Website as communicated and made available on the Company&rsquo;s Website</li>
 		<li>&nbsp;
-		<ol style="list-style-type:lower-roman;">
+		<ol>
 			<li><strong>Legal Name of the Entity:</strong>&nbsp;Krishi Square Private Limited</li>
 			<li><strong>Registered Address:</strong>&nbsp;401 Anish Towers 144 Senapati Bapat Road, Matunga W, Mumbai &ndash; 400 016</li>
-			<li><strong>Name &amp; Details of its Website:</strong><a href="file:///C:/Users/admin/Downloads/%C2%A0https:/www.krishisquare.com">&nbsp;https://www.krishisquare.com</a></li>
+			<li><strong>Name &amp; Details of its Website:</strong><a href="https:/www.krishisquare.com">&nbsp;https://www.krishisquare.com</a></li>
 		</ol>
 		</li>
 	</ol>
@@ -42,7 +42,7 @@ const Terms = () => {
 	<li><strong>DEFINITIONS AND INTERPRETATION</strong>
 	<ol>
 		<li>Unless the context otherwise requires, for these Terms and Conditions, the following terms shall have the meaning ascribed to them hereunder:
-		<ol style="list-style-type:lower-roman;">
+		<ol >
 			<li><strong>&ldquo;Applicable Law&rdquo;</strong>&nbsp;means all laws, ordinances, statutes, rules, orders, decrees, injunctions, licenses, permits, approvals, authorizations, consents, waivers, privileges, agreements, and regulations of any governmental authority/court of law having jurisdiction over the relevant matter including any interpretations thereof, in effect;</li>
 			<li><strong>&ldquo;Intellectual Property Rights&rdquo;</strong>&nbsp;means all patents, designs and drawings, trademarks, service marks, logos, domain names, and utility models, copyrights, inventions, brand names, and business names, and any similar rights and the benefit (subject to the burden) of any of the foregoing (in each case whether registered or otherwise, and includes applications for the grant of any of the foregoing and the right to apply for any of the foregoing in any part of the world);</li>
 			<li><strong>&ldquo;Privacy Policy&rdquo;</strong>&nbsp;shall mean the Privacy Policy available on the Website;</li>
@@ -56,14 +56,14 @@ const Terms = () => {
 	</ol>
 	</li>
 	<li><strong>PROPRIETARY RIGHTS</strong>
-	<ol style="list-style-type:lower-roman;">
+	<ol >
 		<li><strong>User acknowledges and agrees that the Company owns all legal right, title, and interest in and to the Services, including any Intellectual Property Rights which subsist in the Services (whether those rights happen to be registered or not, and wherever in the world those rights may exist). User further acknowledges that the Services may contain information which is designated confidential by the Company and that User shall not disclose such information without the Company&#39;s prior written consent.</strong></li>
 		<li><strong>Unless the User has agreed otherwise in writing with the Company, nothing in these Terms and Conditions gives the User a right to use any of the Company&#39;s trade names, trademarks, service marks, logos, domain names, and other distinctive brand features.</strong></li>
 		<li><strong>Unless you have been expressly authorized to do so in writing by the Company, User agrees that in using the Services, User will not use any trademark, service mark, trade name, the logo of any company or organization in a way that is likely or intended to confuse the owner or authorized user of such marks, names or logos.</strong></li>
 	</ol>
 	</li>
 	<li><strong>TERMS OF SERVICE/USER ACCOUNTS</strong>
-	<ol style="list-style-type:lower-roman;">
+	<ol >
 		<li>To access the Services or the Website a User must first register an account with the Website&nbsp;<strong>(&ldquo;User Account&rdquo;)</strong>. A User must be at least 18 (eighteen) years of age to be eligible to register an account with us.</li>
 		<li>By registering an account with us&nbsp;<strong>(&ldquo;Registered User&rdquo;)</strong>, the User represents and warrants that you are at least 18 years old, that all information you submit is true, accurate, and complete and you shall comply with these Terms and Conditions. User further represents and warrants that: (a) all required registration information submitted by User is truthful, accurate, and complete; and that (b) User will maintain the accuracy of such information.</li>
 		<li>User will be solely responsible for maintaining the confidentiality of their User Account and login details, and we will not be responsible for misuse of your User Account by any third party, whether authorized by you or not. A User may never use another User&rsquo;s account without permission of such User and us. User is also prohibited from sharing their log-in details or allowing anyone to access their account or do anything that might put their User Account at risk.</li>
@@ -91,7 +91,7 @@ const Terms = () => {
 <ol>
 	<li value="6"><strong>DISCLAIMER</strong>
 
-	<ol style="list-style-type:lower-roman;">
+	<ol >
 		<li>User agrees that their use of the website shall be at their own risk. To the fullest extent permitted by law, the company and its officers, managers, members, directors, employees, successors, assigns, subsidiaries, affiliates, suppliers, and agents disclaim all warranties, express, implied, statutory or otherwise, and make no warranties, representations, or guarantees in connection with the website, the services offered on or through the website, any data, materials, content, relating to the quality, suitability, truth, accuracy or completeness of any information or material contained or presented on the website, including without limitation the materials, data and submitted content of other users of this site or other third parties. Unless otherwise explicitly stated, to the maximum extent permitted by applicable law, the website, the services offered on or through the website, data, materials, submitted content, and any information or material contained or presented on the website is provided to you on an &ldquo;as is&rdquo;, &ldquo;as available&rdquo; and &ldquo;where-is&rdquo; basis with no warranty, express or implied, of merchantability, fitness for a particular purpose, or non-infringement of third-party rights.</li>
 		<li>The Company does not provide any warranties against errors, mistakes, or inaccuracies of data, content, information, materials, the substance of the website, postings, feedback or content, any unauthorized access to or use of our secure servers, and/or any personal information and/or financial information stored therein, any bugs, viruses, trojan horses, or the like which may be transmitted to or through the website, any interruption or cessation of transmission to or from the website, any defamatory, offensive, or illegal conduct of any third party or user, or any loss or damage of any kind incurred as a result of the use of any data, content, information, materials, the substance of the website or content posted, emailed, transmitted, or otherwise made available via the website.</li>
 		<li>The Company does not endorse, warrant, guarantee, or assume responsibility for any product or service advertised or offered by a third party through the website or any hyperlinked site or featured in any banner or other advertisement. The company will not be a party to or in any way be responsible for monitoring any transaction between you and any party, including third-party providers of products or services. As with the use of any product or service, and the publishing or posting of any material through any medium or in any environment, you should use your best judgment and exercise caution where appropriate.</li>
@@ -113,7 +113,7 @@ const Terms = () => {
 <ol>
 	<li value="7"><strong>LIMITATIONS OF LIABILITY</strong>
 
-	<ol style="list-style-type:lower-roman;">
+	<ol >
 		<li>In no event shall the Company, its affiliates or its respective officers, managers, members, directors, employees, successors, assigns, subsidiaries, suppliers, attorneys or agents, be liable to a user for any direct, indirect, incidental, special, punitive, consequential or exemplary damages (including but not limited to loss of business, revenue, profits, use, data or other economic advantage) whatsoever resulting from any (i) access to or use of the Website; (ii) errors, mistakes, or inaccuracies of data, Intellectual Property Rights, content, information, materials or substance of the Website; (iii) any unauthorized access to or use of our secure servers and / or any and all personal information and / or financial information stored therein; (iv) any bugs, viruses, trojan horses, or the like which may be transmitted to or through the website by any third party; (v) any interruption or cessation of transmission to or from the website; (vi) any errors or omissions in any data, content, information, materials or substance of the website or content; (vii) any failed negotiations for purchase of fractional ownership of any listed property on the website, any disputes that arise during or after the negotiation for purchase of fractional ownership of any listed property on the website, or any other dispute that arises between users of the website; (viii) any defamatory, offensive, or illegal conduct of any third party or user;</li>
 		<li>The foregoing limitation of liability shall apply to the fullest extent permitted by law in the applicable jurisdiction.</li>
 		<li>In no event shall the total aggregate liability of the company, or any of the above-referenced respective parties, arising from or relating to the website, exceed the total amount paid to the Company by a User for the Services under which such liability arose.</li>
@@ -134,7 +134,7 @@ const Terms = () => {
 <ol>
 	<li value="10"><strong>MODIFICATIONS TO OR TERMINATION OF THE WEBSITE</strong>
 
-	<ol style="list-style-type:lower-roman;">
+	<ol>
 		<li><strong>Modification or Cessation of Website: </strong>The Company reserves the right to, at any time and from time to time, modify or discontinue, temporarily or permanently, the Website (or any part thereof) with or without notice and in its sole discretion. Users agree that the Company shall not be liable to the User or any third party for any modification, suspension, or discontinuance of the services offered by the Company.</li>
 		<li><strong>Termination by The Company: </strong>User hereby acknowledges and agree that the Company, in its sole and absolute discretion, has the right (but not the obligation) to delete, terminate, or deactivate User Account, block User&rsquo;s email or IP address, cancel the Website or otherwise terminate User&rsquo;s access to or participation in the use of the Website (or any part thereof), or remove and discard any content submitted by User on the Website, immediately and without notice, for any reason, including without limitation, User Account inactivity or if the Company believes or has reason to believe that the User has violated any provision of the Terms and Conditions.</li>
 		<li><strong>Effect of Termination: U</strong>pon termination of the User Account, User&rsquo;s right to participate in the Website, including, but not limited to, User&rsquo;s right to receive any rental shall automatically terminate. User acknowledges and agrees that right to receive any rental accrued for the period before termination is conditional upon User having (i) properly used the Website, (ii) adhered to the Terms and Conditions, (iii) maintained continuous activation of User Account, and (iv) participated on the Website. In the event of termination, the User Account will be disabled and the User may not be granted access to the User Account or any files or other data contained in the User Account. Notwithstanding the foregoing, residual data may remain in the Company&rsquo;s system.<br />
@@ -146,7 +146,7 @@ const Terms = () => {
 	<li value="11"><strong>MISCELLANEOUS</strong></li>
 </ol>
 
-<ol style="list-style-type:lower-roman;">
+<ol>
 	<li><strong>Charges for Services: </strong>The Company may charge a commission/fees for its Services, on a case to case basis.</li>
 	<li><strong>Governing Law and Jurisdiction: </strong>The Terms and Conditions shall be governed in all respects by the laws of India and any legal proceeding arising out of this Agreement will occur exclusively in the courts located in Mumbai, India.</li>
 	<li><strong>Dispute Resolution:</strong> Any dispute arising from this Agreement which cannot be mutually resolved by the Parties within sixty (60) days shall be settled through arbitration. The arbitration proceedings shall be conducted in accordance with the (Indian) Arbitration and Conciliation Act, 1996, as amended from time to time. The arbitration proceedings shall be conducted in English and the venue of arbitration shall be at Mumbai.</li>
@@ -163,7 +163,7 @@ const Terms = () => {
 	<li><strong>Complaint &amp; Grievance Mechanism: </strong>Any queries/concerns of the users should be addressed to: <a href="mailto:info@krishisquare.com">info@krishisquare.com</a>.</li>
 </ol>
 
-<p style="margin-left:-7.1pt;">Krishi Square will respond to all relevant user queries within 30 days.</p>
+<p>Krishi Square will respond to all relevant user queries within 30 days.</p>
 
            </div>
          </div>
