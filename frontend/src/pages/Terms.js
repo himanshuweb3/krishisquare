@@ -21,8 +21,8 @@ const Terms = () => {
 
        <div className='container' style={{ padding:'100px 0px' }}>
           <div className='row'>
-            <div className='col-xl-12 col-lg-12 text-center'>
-              <h2 align="center">TERMS AND CONDITIONS</h2>
+            <div className='col-xl-12 col-lg-12'>
+             
 
 <ol>
 	<li><strong>INTRODUCTION AND ACKNOWLEDGMENT</strong>
