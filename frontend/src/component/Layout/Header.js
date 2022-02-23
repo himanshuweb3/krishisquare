@@ -33,12 +33,12 @@ const Header = ({ user, setUser }) => {
                   <Link to='/'>
                     <img
                       className='dark-logo'
-                      src='assets/images/resources/logo-1.png'
+                      src='/assets/images/resources/logo-1.png'
                       alt=''
                     />
                     <img
                       className='light-logo'
-                      src='assets/images/resources/logo-2.png'
+                      src='/assets/images/resources/logo-2.png'
                       alt=''
                     />
                   </Link>
@@ -55,12 +55,12 @@ const Header = ({ user, setUser }) => {
                         <Link to='/'>
                           <img
                             className='dark-logo'
-                            src='assets/images/resources/logo-1.png'
+                            src='/assets/images/resources/logo-1.png'
                             alt=''
                           />
                           <img
                             className='light-logo'
-                            src='assets/images/resources/logo-2.png'
+                            src='/assets/images/resources/logo-2.png'
                             alt=''
                           />
                         </Link>
@@ -75,7 +75,7 @@ const Header = ({ user, setUser }) => {
                         <li>
                           <Link to='/about'>About</Link>
                         </li>
-                        
+
                         <li className='nav-item dropdown'>
                           <a
                             className='nav-link dropdown-toggle'
@@ -99,7 +99,7 @@ const Header = ({ user, setUser }) => {
                             </Link>
                           </div>
                         </li>
-<li>
+                        <li>
                           <Link to='/escrow'>Escrow</Link>
                         </li>
                         <li>
@@ -120,7 +120,6 @@ const Header = ({ user, setUser }) => {
                             <li className='dropdown'>
                               <Link to='/login'>Login/Register</Link>
                             </li>
-                           
                           </>
                         )}
                         {loggedUser && loggedUser.role === "admin" ? (
