@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useAlert } from "react-alert";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 
 const Login = ({ setUser }) => {
   const history = useHistory();
@@ -91,7 +91,14 @@ const Login = ({ setUser }) => {
               </div>
             </div>
           </form>
-<div className='notreg'>Not Registered ? <a href="signup">click here</a> for *Registration*</div>
+          <div className='notreg'>
+            Not Registered ? <Link to='signup'>click here</Link> for
+            *Registration*
+          </div>
+          <div className='notreg mt-3'>
+            Forgot Password ? <Link to='/forgot/password'>click here</Link> to
+            *Reset Password*
+          </div>
         </div>
       </div>
     </div>
