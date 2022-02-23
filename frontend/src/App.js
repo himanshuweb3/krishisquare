@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Escrow from "./pages/Escrow";
 import Admin from "./pages/Admin";
+import ForgotPassword from "./pages/forgotPassword";
 import Header from "./component/Layout/Header";
 import Footer from "./component/Layout/Footer";
 import { Switch, Route } from "react-router-dom";
@@ -15,8 +16,7 @@ import { useLocation } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 import Products from "./pages/Products";
 import Insights from "./pages/Insights";
-import Terms from "./pages/Terms";
-import Privacy from "./pages/Privacy";
+import ResetPassword from "./pages/resetPassword";
 
 function App() {
   const location = useLocation();
@@ -74,11 +74,11 @@ function App() {
         <Route exact path='/insights'>
           <Insights />
         </Route>
-        <Route exact path='/terms'>
-          <Terms />
+        <Route exact path='/forgot/password'>
+          <ForgotPassword />
         </Route>
-        <Route exact path='/privacy'>
-          <Privacy />
+        <Route exact path='/password/reset/:token'>
+          <ResetPassword />
         </Route>
         <Route exact path='/products'>
           <Products user={user} />
