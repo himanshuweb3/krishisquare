@@ -121,8 +121,12 @@ We believe the world will look very different after this pandemic, as it did aft
           <div className='text-center clearfix'>
            <h2>Our Founders</h2>
           </div>
-<div className='col-xl-6 col-lg-5 text-center'><img src="assets/images/founderimg.png" /><h5>Vikash Kabra</h5><h6>Co-Founder</h6></div>
-<div className='col-xl-6 col-lg-5 text-center'><img src="assets/images/founderimg.png" /><h5>Divyanshu Tripathi</h5><h6>Co-Founder</h6></div>
+<div className='col-xl-6 col-lg-5 text-center'><img src="assets/images/about/vikash.jpg" /><h5>Vikash Kabra</h5><h6>Co-Founder</h6><p>Vikash has over 18 years of versatile track record in financial services sector in India. He has had dynamic entrepreneurial roles in nimble and agile foreign and domestic organisations including Goldman Sachs, Jefferies. His experience entails leadership of mid-sized, cross-functional and multi-cultural project teams.
+Having grown up in a family business with linkages in agri supply chain and by working across technology sector, Vikash understands the nuances of building a successful company tempered by the unique realities of the Indian business ecosystem.
+Vikash trained and qualified as a Chartered Accountant with PwC.</p></div>
+<div className='col-xl-6 col-lg-5 text-center'><img src="assets/images/about/divyanshu.jpg" /><h5>Divyanshu Tripathi</h5><h6>Co-Founder</h6><p>Divyanshu has had considerable experience, spanning over 18 years where he has worked across fintech and digital businesses at Easy Policy, PolicyBazaar, First Europa. 
+Each of these organisations have brought its own unique dimension, wherein he founded Easy Policy and Policy Bazaar and has hands-on experience in business development, operations, sales and marketing, technology.
+Divyanshu has a B.Tech. in Industrial Electronics Engineering from GHRCE, Nagpur.</p></div>
 </div>
 </div>
       
