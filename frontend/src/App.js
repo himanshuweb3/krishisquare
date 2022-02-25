@@ -6,6 +6,8 @@ import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Escrow from "./pages/Escrow";
+import Terms from "./pages/Terms";
+import Privacy from "./pages/Privacy";
 import Admin from "./pages/Admin";
 import ForgotPassword from "./pages/forgotPassword";
 import Header from "./component/Layout/Header";
@@ -73,6 +75,12 @@ function App() {
         </Route>
         <Route exact path='/insights'>
           <Insights />
+        </Route>
+       <Route exact path='/terms'>
+          <Terms />
+        </Route>
+       <Route exact path='/Privacy'>
+          <Privacy />
         </Route>
         <Route exact path='/forgot/password'>
           <ForgotPassword />
