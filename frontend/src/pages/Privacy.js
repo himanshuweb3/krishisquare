@@ -19,7 +19,7 @@ const Privacy = () => {
       </section>
       {/* Page Header End*/}
 
-       <div className='container' style={{ padding:'100px 0px' }}>
+       <div className='container content' style={{ padding:'100px 15px' }}>
           <div className='row'>
             <div className='col-xl-12 col-lg-12'>
              
@@ -32,7 +32,7 @@ const Privacy = () => {
 
 <p>Krishi Square also assures not to disclose all information that it learns during the transactions and payments made to the user&rsquo;s account(s). &ldquo;user(s)&rdquo; shall mean and include all companies and private organisations that visit the website and provide information to Krishi Square through any of the modes referred to in the clause on &ldquo;Collection of Information&rdquo; below.</p>
 
-<p>Collection of information</p>
+<h3>Collection of information</h3>
 
 <p>During the use of the website, Krishi Square may collect and process information from the users, including but not limited to the below mentioned:</p>
 
@@ -48,7 +48,7 @@ const Privacy = () => {
 	<li>Such information will not be considered as sensitive if it is freely available and accessible in the public domain or is furnished under the Right to Information Act, 2005 or any other law for the time being in force</li>
 </ul>
 
-<p>Non-disclosure</p>
+<h3>Non-disclosure</h3>
 
 <p>Krishi Square pledges that it shall not sell or rent users&rsquo; personal details to anyone. Krishi Square will protect every bit of the users&rsquo; business or personal information and maintain the confidentiality of the same. With this seal of trust, Krishi Square makes its services available to the users for assessment and analysis that include credit and behaviour scoring, market and product analysis.</p>
 
@@ -83,7 +83,7 @@ const Privacy = () => {
 
 <p>Access to personal information is strictly restricted and shared in accordance with certain specific internal procedures and safeguards that govern access. Certain features of the website are available for use without any need to provide details. Other features of the website may require users to provide details including but not limited to the user&rsquo;s name, address, mobile number, email address, PAN No., GST No., employment &amp; income details.</p>
 
-<p>Security of information</p>
+<h3>Security of information</h3>
 
 <p>We take appropriate security measures to protect against any unauthorized access to or unauthorized alteration, modification, disclosure or destruction of data uploaded and stored by Users. These include internal reviews of our data collection, storage and processing practices and security measures, including appropriate encryption and physical security measures to guard against unauthorized access to systems where we store personal data.</p>
 
@@ -97,11 +97,11 @@ const Privacy = () => {
 
 <p>In the event Krishi Square becomes aware of any breach of the security of the users&rsquo; information, it will promptly notify the users and take appropriate action to the best of its ability to remedy such a breach.</p>
 
-<p>Exclusion</p>
+<h3>Exclusion</h3>
 
 <p>This Policy does not apply to any information other than information collected by Krishi Square through the website including such information collected in accordance with the clause on &ldquo;Collection of Information&rdquo; above. This Policy shall not apply to any unsolicited information provided by the users through this website or through any other means. This includes, but is not limited to, information posted to any public areas of the website. All such unsolicited information shall be deemed to be non-confidential and Krishi Square shall be free to use, disclose such unsolicited information without limitation.</p>
 
-<p>Cookies</p>
+<h3>Cookies</h3>
 
 <p>Krishi Square collects certain information from the user&rsquo;s browser using small data files called &ldquo;cookies.&rdquo; Krishi Square uses session ID cookies to confirm that customers are logged in. This type of cookie helps Krishi Square recognize a customer if he or she visits multiple pages on the website during the same session, so that separate passwords are not required to access each page. These cookies terminate once the customer closes the browser. By default, Krishi Square uses a persistent cookie that stores customer login ID (but not password) to make it easier for the customer to login when returning to the website. Krishi Square encodes its cookies so that only Krishi Square can interpret the information stored in them. The user may remove or block this cookie using the user&rsquo;s browser settings to disable the feature.</p>
 
@@ -109,15 +109,15 @@ const Privacy = () => {
 
 <p>Krishi Square&rsquo;s Privacy Policy does not cover the use of cookies by its partners and affiliates. Krishi Square does not have access or control over these cookies. Krishi Square&rsquo;s partners and affiliates may use session ID cookies to provide a custom user experience and to track the success of Krishi Square&rsquo;s partnership with them.</p>
 
-<p>Referrals</p>
+<h3>Referrals</h3>
 
 <p>If the user wishes to introduce Krishi Square / the website to any other person / entity, the user will be asked to provide such person / entity&rsquo;s name and email address. Krishi Square will automatically send such person / entity an email inviting it or to visit the website. Krishi Square stores this information for the purpose of sending this email and keeping a record of the number of persons / entities so referred by the users. Krishi Square may send additional emails to the said person / entity in connection with services offered by Krishi Square. Such person / entity may contact Krishi Square at infokrishisquare.com to request that this information be removed from Krishi Square&rsquo;s database.</p>
 
-<p>Links to third-party websites</p>
+<h3>Links to third-party websites</h3>
 
 <p>The website includes links to other websites whose privacy practices may differ from those of Krishi Square. The inclusion of a link does not imply any endorsement by Krishi Square of the third party website, the website&#39;s provider, or the information on the third party website. If the users submit personal information to any of those websites, such information is governed by the privacy policies of such third party websites and Krishi Square disclaims all responsibility or liability with respect to these policies or the websites. The users are encouraged to carefully read the privacy policy of any website that they visit.</p>
 
-<p>Opting out or editing customer information</p>
+<h3>Opting out or editing customer information</h3>
 
 <p>To opt out of email correspondence from Krishi Square or make a change to (or delete) the user information stored in Krishi Square&rsquo;s records, please contact Krishi Square at info@krishi square.com.</p>
 
@@ -125,23 +125,23 @@ const Privacy = () => {
 <br />
 Krishi Square will respond to the user&rsquo;s request within 30 days.</p>
 
-<p>Data retention</p>
+<h3>Data retention</h3>
 
 <p>User information will be retained for as long as the user account is active or as needed to provide services to the user. If the user wishes to cancel its account or requests that Krishi Square no longer uses its information to provide services, the user may contact Krishi Square at info@krishisquare.com. Krishi Square will retain and use user information as necessary to comply with its legal obligations, resolve disputes, and enforce its agreements or for other business purposes.</p>
 
-<p>Changes to privacy policy</p>
+<h3>Changes to privacy policy</h3>
 
 <p>In the event Krishi Square modifies this Privacy Policy, the same will be updated on the website. These policy may be changed, but any changes will be posted and changes will only apply to activities and information on a going forward, not retroactive basis. The users are encouraged to periodically review this page for the latest information on its privacy practices. In case of any material changes to the Policy, the users will be notified by email (sent to the email address specified in the user&rsquo;s account) or by means of a notice on this website prior to the change becoming effective.</p>
 
-<p>Severability</p>
+<h3>Severability</h3>
 
 <p>Krishi Square has made every effort to ensure that this Policy adheres with the applicable laws. The invalidity or unenforceability of any part of this Policy shall not prejudice or affect the validity or enforceability of the remainder of this Policy.</p>
 
-<p>No waiver</p>
+<h3>No waiver</h3>
 
 <p>The rights and remedies available under this Policy may be exercised as often as necessary and are cumulative and not exclusive of rights or remedies provided by law. It may be waived only in writing. Delay in exercising or non-exercise of any such right or remedy does not constitute a waiver of that right or remedy, or any other right or remedy.</p>
 
-<p>Governing law or dispute resolution</p>
+<h3>Governing law or dispute resolution</h3>
 
 <p>This Policy shall be governed by and construed in accordance with the laws of the Republic of India and subject to the provisions of arbitration set out herein, the courts at Mumbai shall have exclusive jurisdiction in relation to any disputes arising out of or in connection with this Policy.</p>
 
@@ -149,11 +149,11 @@ Krishi Square will respond to the user&rsquo;s request within 30 days.</p>
 
 <p>The language of the arbitration proceedings and of all written decisions and correspondence relating to the arbitration shall be English.</p>
 
-<p>Foreign jurisdiction</p>
+<h3>Foreign jurisdiction</h3>
 
 <p>Krishi Square makes no representation that the content contained on the website is appropriate or to be used or accessed outside of the Republic of India. If the users use or access the website from outside the Republic of India, they do so at their own risk and are responsible for compliance with the laws of such jurisdiction.</p>
 
-<p>Contact</p>
+<h3>Contact</h3>
 
 <p>Any questions or concerns should be addressed to: info@krishisquare.com</p>
 
