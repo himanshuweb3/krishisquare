@@ -197,11 +197,8 @@ button {
 
 .our-team img {max-width: 250px; margin-bottom:15px;}
 .our-team h2 {margin-bottom:30px; }
-.our-team p {line-height: 1.5;
-	font-size: 16px; }
-.contactdet {
-    padding: 50px 0px;
-}
+.our-team p {line-height: 1.5;	font-size: 16px; margin-bottom: 30px; }
+.contactdet {    padding: 50px 0px; }
 .contactdet .icon {
 	float:left;
     position: relative;
@@ -318,6 +315,7 @@ button {
 }
 
 .content h3 { margin:15px 0px; }
+.content ol, .content ul { padding-left: 0; }
 .content ul li {     list-style: disc;	margin-left: 20px; }
 .content ol li {   list-style: auto; }
 
