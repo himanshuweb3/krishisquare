@@ -19,7 +19,7 @@ const Terms = () => {
       </section>
       {/* Page Header End*/}
 
-       <div className='container' style={{ padding:'100px 0px' }}>
+       <div className='container content' style={{ padding:'100px 15px' }}>
           <div className='row'>
             <div className='col-xl-12 col-lg-12'>
              
@@ -57,9 +57,9 @@ const Terms = () => {
 	</li>
 	<li><strong>PROPRIETARY RIGHTS</strong>
 	<ol >
-		<li><strong>User acknowledges and agrees that the Company owns all legal right, title, and interest in and to the Services, including any Intellectual Property Rights which subsist in the Services (whether those rights happen to be registered or not, and wherever in the world those rights may exist). User further acknowledges that the Services may contain information which is designated confidential by the Company and that User shall not disclose such information without the Company&#39;s prior written consent.</strong></li>
-		<li><strong>Unless the User has agreed otherwise in writing with the Company, nothing in these Terms and Conditions gives the User a right to use any of the Company&#39;s trade names, trademarks, service marks, logos, domain names, and other distinctive brand features.</strong></li>
-		<li><strong>Unless you have been expressly authorized to do so in writing by the Company, User agrees that in using the Services, User will not use any trademark, service mark, trade name, the logo of any company or organization in a way that is likely or intended to confuse the owner or authorized user of such marks, names or logos.</strong></li>
+		<li>User acknowledges and agrees that the Company owns all legal right, title, and interest in and to the Services, including any Intellectual Property Rights which subsist in the Services (whether those rights happen to be registered or not, and wherever in the world those rights may exist). User further acknowledges that the Services may contain information which is designated confidential by the Company and that User shall not disclose such information without the Company&#39;s prior written consent.</li>
+		<li>Unless the User has agreed otherwise in writing with the Company, nothing in these Terms and Conditions gives the User a right to use any of the Company&#39;s trade names, trademarks, service marks, logos, domain names, and other distinctive brand features.</li>
+		<li>Unless you have been expressly authorized to do so in writing by the Company, User agrees that in using the Services, User will not use any trademark, service mark, trade name, the logo of any company or organization in a way that is likely or intended to confuse the owner or authorized user of such marks, names or logos.</li>
 	</ol>
 	</li>
 	<li><strong>TERMS OF SERVICE/USER ACCOUNTS</strong>
