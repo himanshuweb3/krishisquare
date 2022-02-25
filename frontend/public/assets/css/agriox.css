@@ -315,6 +315,10 @@ button {
   padding-right: 15px;
 }
 
+.content h3 { margin:15px 0px; }
+.content ul li {     list-style: disc;	margin-left: 20px; }
+
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
