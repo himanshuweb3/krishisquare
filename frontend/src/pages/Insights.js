@@ -20,7 +20,7 @@ const Insights = () => {
       {/* Page Header End*/}
 
        <div className='container' style={{ padding:'100px 0px' }}>
-          <div className='row'>
+          <div className='row boxes'>
             <div className='col-xl-3 col-lg-6 '>
                <img src="assets/images/insight1.jpg" />
               <h3>Future of Indian Agriculture - Vision 2030</h3>
