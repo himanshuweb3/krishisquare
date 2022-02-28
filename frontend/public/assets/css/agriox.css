@@ -319,6 +319,13 @@ button {
 .content ul li {     list-style: disc;	margin-left: 20px; }
 .content ol li {   list-style: auto; }
 
+.boxes h3 {   font-size: 22px;   margin: 15px 0px; }
+.boxes p {    line-height: 1.5; }
+.boxes a {
+    color: orange;
+    text-decoration: underline;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
