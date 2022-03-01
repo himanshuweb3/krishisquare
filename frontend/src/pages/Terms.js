@@ -19,7 +19,7 @@ const Terms = () => {
       </section>
       {/* Page Header End*/}
 
-       <div className='container content' style={{ padding:'100px 15px' }}>
+       <div className='container content' style={{ padding:'100px 25px' }}>
           <div className='row'>
             <div className='col-xl-12 col-lg-12'>
              
