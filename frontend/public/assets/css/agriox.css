@@ -312,6 +312,7 @@ button {
 .container {
   padding-left: 15px;
   padding-right: 15px;
+  margin:auto;
 }
 .content {    margin: 0px 10px; }
 .content h3 { margin:15px 0px; }
