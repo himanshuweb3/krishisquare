@@ -329,6 +329,8 @@ button {
 .boxes .box { padding:5px;     border: 10px solid #fff;}
 .box img {   max-width: 100%; }
 
+.contact-page iframe {width:100%!important; }
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
