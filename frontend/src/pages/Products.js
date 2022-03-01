@@ -23,7 +23,7 @@ const Products = ({ user }) => {
 
   return (
     <>
-      <h1 className='text-center heading-primary'>Our Products Offerings</h1>
+      <h1 className='text-center heading-primary'>Our Product Offerings</h1>
       <div className='container flex-wrap justify-content-center d-flex mt-5 mb-5'>
         {products &&
           products.map((product) => (
