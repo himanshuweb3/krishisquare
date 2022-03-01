@@ -180,7 +180,7 @@ const Footer = ({ user, setUser }) => {
               </li>
                   <li>
                     <a href='/signup'>
-                      Sign Up
+                      Registration
                     </a>
                   </li>
                   </ul>
@@ -211,13 +211,9 @@ const Footer = ({ user, setUser }) => {
                 <>
                   <li>
                     <Link onClick={closeNav} to='/login'>
-                      Login
+                      Login / Signup
                     </Link>
                   </li>
-                  <li>
-                    <Link onClick={closeNav} to='/signup'>
-                      Sign Up
-                    </Link>
                   </li>
                 </>
               )}
