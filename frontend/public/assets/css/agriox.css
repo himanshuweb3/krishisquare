@@ -314,7 +314,7 @@ button {
   padding-right: 15px;
   margin:auto;
 }
-.content {    margin: 0px 10px; }
+.content {    margin: auto; }
 .content h3 { margin:15px 0px; }
 .content ol, .content ul { padding-left: 0; }
 .content ul li {     list-style: disc;	margin-left: 20px; }
