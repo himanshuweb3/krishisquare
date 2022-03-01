@@ -211,9 +211,8 @@ const Footer = ({ user, setUser }) => {
                 <>
                   <li>
                     <Link onClick={closeNav} to='/login'>
-                      Login / Signup
+                      Login/Signup
                     </Link>
-                  </li>
                   </li>
                 </>
               )}
