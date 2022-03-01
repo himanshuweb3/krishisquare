@@ -326,7 +326,7 @@ button {
     color: orange;
     text-decoration: underline;
 }
-.boxes .box { padding:5px; }
+.boxes .box { padding:5px;     border: 10px solid #fff;}
 
 @media (min-width: 1200px) {
   .container {
