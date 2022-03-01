@@ -327,6 +327,7 @@ button {
     text-decoration: underline;
 }
 .boxes .box { padding:5px;     border: 10px solid #fff;}
+.box img {   max-width: 100%; }
 
 @media (min-width: 1200px) {
   .container {
