@@ -19,7 +19,7 @@ const Insights = () => {
       </section>
       {/* Page Header End*/}
 
-       <div className='container' style={{ padding:'100px 0px' }}>
+       <div className='container' style={{ padding:'100px 15px' }}>
           <div className='row boxes'>
             <div className='col-xl-3 col-lg-6 '>
                <img src="assets/images/insight1.jpg" />
