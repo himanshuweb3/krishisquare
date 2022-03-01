@@ -24,7 +24,7 @@ const Contact = () => {
         <div className='container'>
           
           <div className='row text-center'>
-            <h3>Want to get in touch? We'd love to hear from you. Here's how you can reach us...</h3>
+            <h3>Want to get in touch? We'd love to hear from you. Here's how you can reach us....</h3>
 
             </div>
             
