@@ -105,7 +105,7 @@ const About = () => {
 <div className='container our-story '>
           <div className='clearfix'>
             
-            <h2 className='sec-title__title'>
+            <h2 className='sec-title__title'></h2>
           </div>
 <img src="https://escrowindia.globalgroominghealthcare.com/assets/images/about/03.png" />
   <p>Krishi Square is B2B agri tech platform to enable discovery and trust in trade for small and medium size businesses(SMBs) and Corporates.
