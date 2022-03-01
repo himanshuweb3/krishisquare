@@ -103,7 +103,7 @@ const About = () => {
       {/*About Three End*/}
      
 <div className='container our-story '>
-          <div className='clearfix'>
+          <div className='text-center clearfix'>
             
             <h2 className='sec-title__title'>Our Story</h2>
           </div>
