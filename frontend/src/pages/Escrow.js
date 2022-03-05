@@ -37,7 +37,7 @@ const Escrow = () => {
         className='page-header clearfix'
         style={{
           backgroundImage:
-            "url(https://escrowindia.globalgroominghealthcare.com/assets/images/about/03.png)",
+            "url(assets/images/03.png)",
         }}
       >
         <div className='container'>
@@ -72,98 +72,98 @@ const Escrow = () => {
                 </p>
 
                 <p>
-                  <img src='https://escrowindia.globalgroominghealthcare.com/assets/escrow1.png' />{" "}
+                  <img src='assets/images/escrow1.png' />{" "}
                   Got a great deal from a new buyer, but don't trust him with
                   payments ?
                 </p>
 
                 <p>
-                  <img src='https://escrowindia.globalgroominghealthcare.com/assets/escrow2.png' />{" "}
+                  <img src='assets/images/escrow2.png' />{" "}
                   Found a good supplier at right price, but don't trust with the
                   quality ?
                 </p>
                 <br />
                 <h4>
-                  <img src='https://escrowindia.globalgroominghealthcare.com/assets/buyer.jpg' />
+                  <img src='assets/images/buyer.jpg' />
                   Buyer
                 </h4>
                 <table>
                   <tr>
                     <td>
-                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png' />{" "}
+                      <img src='assets/images/chk.png' />{" "}
                       Protect your transactions against delays and cancellations
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png' />{" "}
+                      <img src='assets/images/chk.png' />{" "}
                       No more unsecured advance payments
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png' />{" "}
+                      <img src='assets/images/chk.png' />{" "}
                       Keep your money secure until goods are QC at receipt
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png' />{" "}
+                      <img src='assets/images/chk.png' />{" "}
                       Access new sellers and markets to grow your business
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png' />{" "}
+                      <img src='assets/images/chk.png' />{" "}
                       Fully verify seller's identity
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png' />{" "}
+                      <img src='assets/images/chk.png' />{" "}
                       Get your money back if the goods fail the inspection
                     </td>
                   </tr>
                 </table>
                 <br />
                 <h4>
-                  <img src='https://escrowindia.globalgroominghealthcare.com/assets/seller.jpg' />
+                  <img src='assets/images/seller.jpg' />
                   Seller
                 </h4>
                 <table>
                   <tr>
                     <td>
-                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png' />{" "}
+                      <img src='assets/images/chk.png' />{" "}
                       Get paid on time and in full orders
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png' />{" "}
+                      <img src='assets/images/chk.png' />{" "}
                       No need to ship goods until payment is ensued
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png' />{" "}
+                      <img src='assets/images/chk.png' />{" "}
                       Sell more by building trust with buyers
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png' />{" "}
+                      <img src='assets/images/chk.png' />{" "}
                       Secure full payment amount in an escrow before you ship
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png' />{" "}
+                      <img src='assets/images/chk.png' />{" "}
                       Build your reputation as a reliable seller
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/bg-images/chk.png' />{" "}
+                      <img src='assets/images/chk.png' />{" "}
                       Work with verified buyers, eliminating post shipment
                       hassles
                     </td>
