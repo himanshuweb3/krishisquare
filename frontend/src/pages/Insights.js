@@ -7,7 +7,7 @@ const Insights = () => {
       <section
         className='page-header clearfix'
         style={{
-          backgroundImage: "url(https://escrowindia.globalgroominghealthcare.com/assets/images/about/03.png)",
+          backgroundImage: "url(assets/images/03.png)",
         }}
       >
         <div className='container'>
