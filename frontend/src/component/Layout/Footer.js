@@ -45,7 +45,7 @@ const Footer = ({ user, setUser }) => {
                         <div className='footer-widget__about-logo'>
                           <a href='/'>
                             <img
-                              src='https://escrowindia.globalgroominghealthcare.com/assets/images/logo/logo1.png'
+                              src='assets/images/logolight.png'
                               alt=''
                             />
                           </a>
