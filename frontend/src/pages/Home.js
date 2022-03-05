@@ -36,7 +36,7 @@ const Home = ({ user }) => {
                   className='image-layer'
                   style={{
                     backgroundImage:
-                      "url(https://escrowindia.globalgroominghealthcare.com/assets/homepage.png)",
+                      "url(assets/images/homepage.png)",
                   }}
                 ></div>
                 <div className='image-layer-overlay'></div>
@@ -193,7 +193,7 @@ B2B Agri Transaction
                     
                     <h2 className='sec-title__title'>About Krishi Square</h2>
                   </div>
- <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/history/02.jpg' alt='' />
+ <img src='assets/images/02.jpg' alt='' />
                  
                   <p className='about-one__content-text'>
                     Krishi Square has been conceptualised as a B2B agri tech
@@ -229,7 +229,7 @@ B2B Agri Transaction
                   <div className='services-one__single-img'>
                     <div className='services-one__single-img-inner'>
                       <img
-                        src='https://diqzjbzmrib1o.cloudfront.net/production/agri/images/multi_commodity_platform.png'
+                        src='assets/images/multi_commodity_platform.png'
                         alt=''
                       />
                     </div>
@@ -253,7 +253,7 @@ B2B Agri Transaction
                   <div className='services-one__single-img'>
                     <div className='services-one__single-img-inner'>
                       <img
-                        src='https://diqzjbzmrib1o.cloudfront.net/production/agri/images/best_pricing.png'
+                        src='assets/images/best_pricing.png'
                         alt=''
                       />
                     </div>
@@ -276,7 +276,7 @@ B2B Agri Transaction
                   <div className='services-one__single-img'>
                     <div className='services-one__single-img-inner'>
                       <img
-                        src='https://diqzjbzmrib1o.cloudfront.net/production/agri/images/flexible_payment.png'
+                        src='assets/images/flexible_payment.png'
                         alt=''
                       />
                     </div>
