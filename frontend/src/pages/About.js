@@ -7,7 +7,7 @@ const About = () => {
       <section
         className='page-header clearfix'
         style={{
-          backgroundImage: "url(https://escrowindia.globalgroominghealthcare.com/assets/images/about/03.png)",
+          backgroundImage: "url(assets/images/03.png)",
         }}
       >
         <div className='container'>
@@ -22,7 +22,7 @@ const About = () => {
 <div className='container aboutintro'>
           <div className='row'>
             <div className='col-xl-12 col-lg-12'>
-              <img src="https://escrowindia.globalgroominghealthcare.com/assets/images/about/about.jpg" />
+              <img src="assets/images/about.jpg" />
             </div>
 </div>
 </div>
@@ -56,7 +56,7 @@ const About = () => {
               <div className='about-three__img-box'>
                 <div className='about-three__img-box-img'>
                   <div className='about-three__img-box-img-inner'>
-                    <img src='https://escrowindia.globalgroominghealthcare.com/assets/aboutus.png' alt='' />
+                    <img src='assets/images/ourvision.png' alt='' />
                   </div>
                 </div>
               </div>
@@ -70,7 +70,7 @@ const About = () => {
               <div className='about-three__img-box'>
                 <div className='about-three__img-box-img'>
                   <div className='about-three__img-box-img-inner'>
-                    <img src='https://escrowindia.globalgroominghealthcare.com/assets/images/about/02.jpg' alt='' />
+                    <img src='assets/images/mission.jpg' alt='' />
                   </div>
                 </div>
               </div>
@@ -104,10 +104,9 @@ const About = () => {
      
 <div className='container our-story '>
           <div className='text-center clearfix'>
-            
             <h2 className='sec-title__title'>Our Story</h2>
           </div>
-<img src="https://escrowindia.globalgroominghealthcare.com/assets/images/about/03.png" />
+<img src="assets/images/03.png" />
   <p>Krishi Square is B2B agri tech platform to enable discovery and trust in trade for small and medium size businesses(SMBs) and Corporates.
 <br /><br />
 We believe the world will look very different after this pandemic, as it did after the second world war and the financial crisis of 2008. We foresee a gigantic acceleration towards digitalization in the B2B space. B2B digitization has lagged behind its B2C peers due to an inability to solve for trust deficit which currently exists in SMB and Corporate market. Technology will acts as an enabler and will play a vital role to achieve a humongous scale in $300B agri industry.
