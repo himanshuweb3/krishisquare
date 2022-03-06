@@ -47,7 +47,7 @@ const Home = ({ user }) => {
                         <div className='main-slider__content'>                        
                          
                           <p className='main-slider__text'>
-                            Building a trusted trade platform for <br />
+                            Building a trusted trade platform for the <br />
 B2B Agri Transaction
                           </p>
                         </div>
