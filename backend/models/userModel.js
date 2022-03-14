@@ -40,7 +40,7 @@ const userSchema = new mongoose.Schema({
   },
   GST: {
     type: String,
-    required: [true, "Please enter GST No."],
+    required: [false, "Please enter GST No."],
   },
   address: {
     type: String,
