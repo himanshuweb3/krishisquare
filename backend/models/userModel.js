@@ -8,7 +8,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: [true, "Please provide your name"],
     maxLength: [30, "Name cannot exceed 30 characters"],
-    minLength: [2, "Name must be at least 2 characters"],
+    minLength: [3, "Name must be at least 2 characters"],
   },
   email: {
     type: String,
@@ -33,6 +33,7 @@ const userSchema = new mongoose.Schema({
   mobile: {
     type: Number,
     required: [true, "Please enter your mobile number"],
+    minLength: [10, "Number must be at least 10"],
   },
   town: {
     type: String,
