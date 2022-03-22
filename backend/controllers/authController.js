@@ -98,15 +98,13 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
 
   await user.save({ validateBeforeSave: false });
 
-  const resetPasswordUrl = `${req.protocol}://${req.header(
-    "host"
-  )}/password/reset/${resetToken}`;
+const resetPasswordUrl = `https://krishisquare.com/password/reset/${resetToken}`;
 
   const message = `Your password reset token is :- \n\n ${resetPasswordUrl} \n\nIf you have not requested this email then, please ignore it.`;
   try {
     await sendEmail({
       email: user.email,
-      subject: `Krishisquare Password Recovery`,
+      subject: `Krishisquare - Password Recovery`,
       message,
     });
     res.status(200).json({
